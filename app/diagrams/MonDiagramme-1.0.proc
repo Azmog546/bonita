@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:decision="http://www.bonitasoft.org/ns/bpm/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/bpm/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:process="http://www.bonitasoft.org/ns/bpm/process">
+  <process:MainProcess xmi:id="_lTAOICHkEfCERoyX9R9ziA" name="MonDiagramme" bonitaModelVersion="8">
+    <elements xmi:type="process:Pool" xmi:id="_kfNM8Do-EfC53rJneDzihw" name="Pool1">
+      <elements xmi:type="process:Task" xmi:id="_qmFEkTo-EfC53rJneDzihw" name="Copie de DebutStage" outgoing="_qmMZUDo-EfC53rJneDzihw" incoming="_qmQqwDo-EfC53rJneDzihw" actor="_qmFEkDo-EfC53rJneDzihw">
+        <dynamicLabel xmi:type="expression:Expression" xmi:id="_qmFEkjo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <dynamicDescription xmi:type="expression:Expression" xmi:id="_qmFEkzo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <stepSummary xmi:type="expression:Expression" xmi:id="_qmFElDo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <loopCondition xmi:type="expression:Expression" xmi:id="_qmFElTo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        <loopMaximum xmi:type="expression:Expression" xmi:id="_qmFEljo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+        <cardinalityExpression xmi:type="expression:Expression" xmi:id="_qmFElzo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+        <iteratorExpression xmi:type="expression:Expression" xmi:id="_qmFEmDo-EfC53rJneDzihw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
+        <completionCondition xmi:type="expression:Expression" xmi:id="_qmFEmTo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        <formMapping xmi:type="process:FormMapping" xmi:id="_qmFEmjo-EfC53rJneDzihw">
+          <targetForm xmi:type="expression:Expression" xmi:id="_qmFEmzo-EfC53rJneDzihw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        </formMapping>
+        <contract xmi:type="process:Contract" xmi:id="_qmFEnDo-EfC53rJneDzihw"/>
+        <expectedDuration xmi:type="expression:Expression" xmi:id="_qmFEnTo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
+      </elements>
+      <elements xmi:type="process:StartEvent" xmi:id="_qmGSsDo-EfC53rJneDzihw" name="Copie de Démarrer1" outgoing="_qmNAZjo-EfC53rJneDzihw">
+        <dynamicLabel xmi:type="expression:Expression" xmi:id="_qmGSsTo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <dynamicDescription xmi:type="expression:Expression" xmi:id="_qmGSsjo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <stepSummary xmi:type="expression:Expression" xmi:id="_qmGSszo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+      </elements>
+      <elements xmi:type="process:Task" xmi:id="_qmGSuDo-EfC53rJneDzihw" name="Copie de Signature encadrant" outgoing="_qmNncDo-EfC53rJneDzihw" incoming="_qmOOhjo-EfC53rJneDzihw _qmPcpjo-EfC53rJneDzihw" actor="_qmFEkDo-EfC53rJneDzihw">
+        <dynamicLabel xmi:type="expression:Expression" xmi:id="_qmGSuTo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <dynamicDescription xmi:type="expression:Expression" xmi:id="_qmGSujo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <stepSummary xmi:type="expression:Expression" xmi:id="_qmGSuzo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <loopCondition xmi:type="expression:Expression" xmi:id="_qmGSvDo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        <loopMaximum xmi:type="expression:Expression" xmi:id="_qmGSvTo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+        <cardinalityExpression xmi:type="expression:Expression" xmi:id="_qmGSvjo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+        <iteratorExpression xmi:type="expression:Expression" xmi:id="_qmGSvzo-EfC53rJneDzihw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
+        <completionCondition xmi:type="expression:Expression" xmi:id="_qmGSwDo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        <formMapping xmi:type="process:FormMapping" xmi:id="_qmGSwTo-EfC53rJneDzihw">
+          <targetForm xmi:type="expression:Expression" xmi:id="_qmGSwjo-EfC53rJneDzihw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        </formMapping>
+        <contract xmi:type="process:Contract" xmi:id="_qmGSwzo-EfC53rJneDzihw"/>
+        <expectedDuration xmi:type="expression:Expression" xmi:id="_qmGSxDo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
+      </elements>
+      <elements xmi:type="process:EndEvent" xmi:id="_qmG5wzo-EfC53rJneDzihw" name="Copie de Fin1" incoming="_qmMZUDo-EfC53rJneDzihw">
+        <dynamicLabel xmi:type="expression:Expression" xmi:id="_qmG5xDo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <dynamicDescription xmi:type="expression:Expression" xmi:id="_qmG5xTo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <stepSummary xmi:type="expression:Expression" xmi:id="_qmG5xjo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+      </elements>
+      <elements xmi:type="process:Task" xmi:id="_qmHg0Do-EfC53rJneDzihw" name="Copie de Publication de sujet de stage" outgoing="_qmNneDo-EfC53rJneDzihw" incoming="_qmNAZjo-EfC53rJneDzihw" actor="_qmFEkDo-EfC53rJneDzihw">
+        <dynamicLabel xmi:type="expression:Expression" xmi:id="_qmHg0To-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <dynamicDescription xmi:type="expression:Expression" xmi:id="_qmHg0jo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <stepSummary xmi:type="expression:Expression" xmi:id="_qmHg0zo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <loopCondition xmi:type="expression:Expression" xmi:id="_qmHg1Do-EfC53rJneDzihw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        <loopMaximum xmi:type="expression:Expression" xmi:id="_qmHg1To-EfC53rJneDzihw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+        <cardinalityExpression xmi:type="expression:Expression" xmi:id="_qmHg1jo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+        <iteratorExpression xmi:type="expression:Expression" xmi:id="_qmHg1zo-EfC53rJneDzihw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
+        <completionCondition xmi:type="expression:Expression" xmi:id="_qmHg2Do-EfC53rJneDzihw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        <formMapping xmi:type="process:FormMapping" xmi:id="_qmHg2To-EfC53rJneDzihw">
+          <targetForm xmi:type="expression:Expression" xmi:id="_qmHg2jo-EfC53rJneDzihw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        </formMapping>
+        <contract xmi:type="process:Contract" xmi:id="_qmHg2zo-EfC53rJneDzihw"/>
+        <expectedDuration xmi:type="expression:Expression" xmi:id="_qmHg3Do-EfC53rJneDzihw" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
+      </elements>
+      <elements xmi:type="process:XORGateway" xmi:id="_qmIH4Do-EfC53rJneDzihw" name="Copie de Porte3" outgoing="_qmOOhjo-EfC53rJneDzihw _qmOOjjo-EfC53rJneDzihw" incoming="_qmO1mTo-EfC53rJneDzihw">
+        <dynamicLabel xmi:type="expression:Expression" xmi:id="_qmIH4To-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <dynamicDescription xmi:type="expression:Expression" xmi:id="_qmIH4jo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <stepSummary xmi:type="expression:Expression" xmi:id="_qmIH4zo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+      </elements>
+      <elements xmi:type="process:Task" xmi:id="_qmIH6Do-EfC53rJneDzihw" name="Copie de SignatureDoyen" outgoing="_qmO1kDo-EfC53rJneDzihw" incoming="_qmR46To-EfC53rJneDzihw" actor="_qmFEkDo-EfC53rJneDzihw">
+        <dynamicLabel xmi:type="expression:Expression" xmi:id="_qmIH6To-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <dynamicDescription xmi:type="expression:Expression" xmi:id="_qmIH6jo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <stepSummary xmi:type="expression:Expression" xmi:id="_qmIH6zo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <loopCondition xmi:type="expression:Expression" xmi:id="_qmIH7Do-EfC53rJneDzihw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        <loopMaximum xmi:type="expression:Expression" xmi:id="_qmIH7To-EfC53rJneDzihw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+        <cardinalityExpression xmi:type="expression:Expression" xmi:id="_qmIH7jo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+        <iteratorExpression xmi:type="expression:Expression" xmi:id="_qmIH7zo-EfC53rJneDzihw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
+        <completionCondition xmi:type="expression:Expression" xmi:id="_qmIH8Do-EfC53rJneDzihw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        <formMapping xmi:type="process:FormMapping" xmi:id="_qmIH8To-EfC53rJneDzihw">
+          <targetForm xmi:type="expression:Expression" xmi:id="_qmIH8jo-EfC53rJneDzihw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        </formMapping>
+        <contract xmi:type="process:Contract" xmi:id="_qmIH8zo-EfC53rJneDzihw"/>
+        <expectedDuration xmi:type="expression:Expression" xmi:id="_qmIH9Do-EfC53rJneDzihw" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
+      </elements>
+      <elements xmi:type="process:Task" xmi:id="_qmIu8zo-EfC53rJneDzihw" name="Copie de Validation du sujet" outgoing="_qmO1mTo-EfC53rJneDzihw" incoming="_qmQDsDo-EfC53rJneDzihw _qmSf9To-EfC53rJneDzihw" actor="_qmFEkDo-EfC53rJneDzihw">
+        <dynamicLabel xmi:type="expression:Expression" xmi:id="_qmIu9Do-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <dynamicDescription xmi:type="expression:Expression" xmi:id="_qmIu9To-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <stepSummary xmi:type="expression:Expression" xmi:id="_qmIu9jo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <loopCondition xmi:type="expression:Expression" xmi:id="_qmIu9zo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        <loopMaximum xmi:type="expression:Expression" xmi:id="_qmIu-Do-EfC53rJneDzihw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+        <cardinalityExpression xmi:type="expression:Expression" xmi:id="_qmIu-To-EfC53rJneDzihw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+        <iteratorExpression xmi:type="expression:Expression" xmi:id="_qmIu-jo-EfC53rJneDzihw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
+        <completionCondition xmi:type="expression:Expression" xmi:id="_qmIu-zo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        <formMapping xmi:type="process:FormMapping" xmi:id="_qmIu_Do-EfC53rJneDzihw">
+          <targetForm xmi:type="expression:Expression" xmi:id="_qmIu_To-EfC53rJneDzihw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        </formMapping>
+        <contract xmi:type="process:Contract" xmi:id="_qmIu_jo-EfC53rJneDzihw"/>
+        <expectedDuration xmi:type="expression:Expression" xmi:id="_qmIu_zo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
+      </elements>
+      <elements xmi:type="process:ServiceTask" xmi:id="_qmJWAzo-EfC53rJneDzihw" name="Copie de MajDate" outgoing="_qmPcpjo-EfC53rJneDzihw" incoming="_qmQqyDo-EfC53rJneDzihw">
+        <dynamicLabel xmi:type="expression:Expression" xmi:id="_qmJWBDo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <dynamicDescription xmi:type="expression:Expression" xmi:id="_qmJWBTo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <stepSummary xmi:type="expression:Expression" xmi:id="_qmJWBjo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <loopCondition xmi:type="expression:Expression" xmi:id="_qmJWBzo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        <loopMaximum xmi:type="expression:Expression" xmi:id="_qmJWCDo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+        <cardinalityExpression xmi:type="expression:Expression" xmi:id="_qmJWCTo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+        <iteratorExpression xmi:type="expression:Expression" xmi:id="_qmJWCjo-EfC53rJneDzihw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
+        <completionCondition xmi:type="expression:Expression" xmi:id="_qmJWCzo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+      </elements>
+      <elements xmi:type="process:Task" xmi:id="_qmJ9Ezo-EfC53rJneDzihw" name="Copie de Choix Sujet" outgoing="_qmQDsDo-EfC53rJneDzihw" incoming="_qmR44Do-EfC53rJneDzihw" actor="_qmFEkDo-EfC53rJneDzihw">
+        <dynamicLabel xmi:type="expression:Expression" xmi:id="_qmJ9FDo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <dynamicDescription xmi:type="expression:Expression" xmi:id="_qmJ9FTo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <stepSummary xmi:type="expression:Expression" xmi:id="_qmJ9Fjo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <loopCondition xmi:type="expression:Expression" xmi:id="_qmJ9Fzo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        <loopMaximum xmi:type="expression:Expression" xmi:id="_qmJ9GDo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+        <cardinalityExpression xmi:type="expression:Expression" xmi:id="_qmJ9GTo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+        <iteratorExpression xmi:type="expression:Expression" xmi:id="_qmJ9Gjo-EfC53rJneDzihw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
+        <completionCondition xmi:type="expression:Expression" xmi:id="_qmJ9Gzo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        <formMapping xmi:type="process:FormMapping" xmi:id="_qmJ9HDo-EfC53rJneDzihw">
+          <targetForm xmi:type="expression:Expression" xmi:id="_qmJ9HTo-EfC53rJneDzihw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        </formMapping>
+        <contract xmi:type="process:Contract" xmi:id="_qmJ9Hjo-EfC53rJneDzihw"/>
+        <expectedDuration xmi:type="expression:Expression" xmi:id="_qmJ9Hzo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
+      </elements>
+      <elements xmi:type="process:XORGateway" xmi:id="_qmKkIDo-EfC53rJneDzihw" name="Copie de Porte4" outgoing="_qmQqwDo-EfC53rJneDzihw _qmQqyDo-EfC53rJneDzihw" incoming="_qmO1kDo-EfC53rJneDzihw">
+        <dynamicLabel xmi:type="expression:Expression" xmi:id="_qmKkITo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <dynamicDescription xmi:type="expression:Expression" xmi:id="_qmKkIjo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <stepSummary xmi:type="expression:Expression" xmi:id="_qmKkIzo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+      </elements>
+      <elements xmi:type="process:XORGateway" xmi:id="_qmLLMDo-EfC53rJneDzihw" name="Copie de Porte5" outgoing="_qmRR1To-EfC53rJneDzihw _qmR44Do-EfC53rJneDzihw" incoming="_qmNneDo-EfC53rJneDzihw _qmOOjjo-EfC53rJneDzihw">
+        <dynamicLabel xmi:type="expression:Expression" xmi:id="_qmLLMTo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <dynamicDescription xmi:type="expression:Expression" xmi:id="_qmLLMjo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <stepSummary xmi:type="expression:Expression" xmi:id="_qmLLMzo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+      </elements>
+      <elements xmi:type="process:Task" xmi:id="_qmLLODo-EfC53rJneDzihw" name="Copie de Signature Enseignant" outgoing="_qmR46To-EfC53rJneDzihw" incoming="_qmNncDo-EfC53rJneDzihw" actor="_qmFEkDo-EfC53rJneDzihw">
+        <dynamicLabel xmi:type="expression:Expression" xmi:id="_qmLLOTo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <dynamicDescription xmi:type="expression:Expression" xmi:id="_qmLLOjo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <stepSummary xmi:type="expression:Expression" xmi:id="_qmLLOzo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <loopCondition xmi:type="expression:Expression" xmi:id="_qmLLPDo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        <loopMaximum xmi:type="expression:Expression" xmi:id="_qmLLPTo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+        <cardinalityExpression xmi:type="expression:Expression" xmi:id="_qmLLPjo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+        <iteratorExpression xmi:type="expression:Expression" xmi:id="_qmLLPzo-EfC53rJneDzihw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
+        <completionCondition xmi:type="expression:Expression" xmi:id="_qmLLQDo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        <formMapping xmi:type="process:FormMapping" xmi:id="_qmLLQTo-EfC53rJneDzihw">
+          <targetForm xmi:type="expression:Expression" xmi:id="_qmLLQjo-EfC53rJneDzihw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        </formMapping>
+        <contract xmi:type="process:Contract" xmi:id="_qmLLQzo-EfC53rJneDzihw"/>
+        <expectedDuration xmi:type="expression:Expression" xmi:id="_qmLLRDo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
+      </elements>
+      <elements xmi:type="process:Task" xmi:id="_qmLyQzo-EfC53rJneDzihw" name="Copie de Proposition de sujet" outgoing="_qmSf9To-EfC53rJneDzihw" incoming="_qmRR1To-EfC53rJneDzihw" actor="_qmFEkDo-EfC53rJneDzihw">
+        <dynamicLabel xmi:type="expression:Expression" xmi:id="_qmLyRDo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <dynamicDescription xmi:type="expression:Expression" xmi:id="_qmLyRTo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <stepSummary xmi:type="expression:Expression" xmi:id="_qmLyRjo-EfC53rJneDzihw" name="" content="" returnTypeFixed="true"/>
+        <loopCondition xmi:type="expression:Expression" xmi:id="_qmLyRzo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        <loopMaximum xmi:type="expression:Expression" xmi:id="_qmLySDo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+        <cardinalityExpression xmi:type="expression:Expression" xmi:id="_qmLySTo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+        <iteratorExpression xmi:type="expression:Expression" xmi:id="_qmLySjo-EfC53rJneDzihw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
+        <completionCondition xmi:type="expression:Expression" xmi:id="_qmLySzo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        <formMapping xmi:type="process:FormMapping" xmi:id="_qmLyTDo-EfC53rJneDzihw">
+          <targetForm xmi:type="expression:Expression" xmi:id="_qmLyTTo-EfC53rJneDzihw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        </formMapping>
+        <contract xmi:type="process:Contract" xmi:id="_qmLyTjo-EfC53rJneDzihw"/>
+        <expectedDuration xmi:type="expression:Expression" xmi:id="_qmLyTzo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
+      </elements>
+      <formMapping xmi:type="process:FormMapping" xmi:id="_o2AOHzo-EfC53rJneDzihw">
+        <targetForm xmi:type="expression:Expression" xmi:id="_o2AOIDo-EfC53rJneDzihw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+      </formMapping>
+      <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_o2AOITo-EfC53rJneDzihw">
+        <targetForm xmi:type="expression:Expression" xmi:id="_o2AOIjo-EfC53rJneDzihw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+      </overviewFormMapping>
+      <connections xmi:type="process:SequenceFlow" xmi:id="_qmMZUDo-EfC53rJneDzihw" target="_qmG5wzo-EfC53rJneDzihw" source="_qmFEkTo-EfC53rJneDzihw">
+        <decisionTable xmi:type="decision:DecisionTable" xmi:id="_qmMZUTo-EfC53rJneDzihw"/>
+        <condition xmi:type="expression:Expression" xmi:id="_qmMZUjo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+      </connections>
+      <connections xmi:type="process:SequenceFlow" xmi:id="_qmNAZjo-EfC53rJneDzihw" target="_qmHg0Do-EfC53rJneDzihw" source="_qmGSsDo-EfC53rJneDzihw">
+        <decisionTable xmi:type="decision:DecisionTable" xmi:id="_qmNAZzo-EfC53rJneDzihw"/>
+        <condition xmi:type="expression:Expression" xmi:id="_qmNAaDo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+      </connections>
+      <connections xmi:type="process:SequenceFlow" xmi:id="_qmNncDo-EfC53rJneDzihw" target="_qmLLODo-EfC53rJneDzihw" source="_qmGSuDo-EfC53rJneDzihw" isDefault="true">
+        <decisionTable xmi:type="decision:DecisionTable" xmi:id="_qmNncTo-EfC53rJneDzihw"/>
+        <condition xmi:type="expression:Expression" xmi:id="_qmNncjo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+      </connections>
+      <connections xmi:type="process:SequenceFlow" xmi:id="_qmNneDo-EfC53rJneDzihw" target="_qmLLMDo-EfC53rJneDzihw" source="_qmHg0Do-EfC53rJneDzihw">
+        <decisionTable xmi:type="decision:DecisionTable" xmi:id="_qmNneTo-EfC53rJneDzihw"/>
+        <condition xmi:type="expression:Expression" xmi:id="_qmNnejo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+      </connections>
+      <connections xmi:type="process:SequenceFlow" xmi:id="_qmOOhjo-EfC53rJneDzihw" name="SujetValidé" target="_qmGSuDo-EfC53rJneDzihw" source="_qmIH4Do-EfC53rJneDzihw">
+        <decisionTable xmi:type="decision:DecisionTable" xmi:id="_qmOOhzo-EfC53rJneDzihw"/>
+        <condition xmi:type="expression:Expression" xmi:id="_qmOOiDo-EfC53rJneDzihw" name="true" content="true" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+      </connections>
+      <connections xmi:type="process:SequenceFlow" xmi:id="_qmOOjjo-EfC53rJneDzihw" target="_qmLLMDo-EfC53rJneDzihw" source="_qmIH4Do-EfC53rJneDzihw" isDefault="true">
+        <decisionTable xmi:type="decision:DecisionTable" xmi:id="_qmOOjzo-EfC53rJneDzihw"/>
+        <condition xmi:type="expression:Expression" xmi:id="_qmOOkDo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+      </connections>
+      <connections xmi:type="process:SequenceFlow" xmi:id="_qmO1kDo-EfC53rJneDzihw" target="_qmKkIDo-EfC53rJneDzihw" source="_qmIH6Do-EfC53rJneDzihw" isDefault="true">
+        <decisionTable xmi:type="decision:DecisionTable" xmi:id="_qmO1kTo-EfC53rJneDzihw"/>
+        <condition xmi:type="expression:Expression" xmi:id="_qmO1kjo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+      </connections>
+      <connections xmi:type="process:SequenceFlow" xmi:id="_qmO1mTo-EfC53rJneDzihw" target="_qmIH4Do-EfC53rJneDzihw" source="_qmIu8zo-EfC53rJneDzihw">
+        <decisionTable xmi:type="decision:DecisionTable" xmi:id="_qmO1mjo-EfC53rJneDzihw"/>
+        <condition xmi:type="expression:Expression" xmi:id="_qmO1mzo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+      </connections>
+      <connections xmi:type="process:SequenceFlow" xmi:id="_qmPcpjo-EfC53rJneDzihw" target="_qmGSuDo-EfC53rJneDzihw" source="_qmJWAzo-EfC53rJneDzihw" isDefault="true">
+        <decisionTable xmi:type="decision:DecisionTable" xmi:id="_qmPcpzo-EfC53rJneDzihw"/>
+        <condition xmi:type="expression:Expression" xmi:id="_qmPcqDo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+      </connections>
+      <connections xmi:type="process:SequenceFlow" xmi:id="_qmQDsDo-EfC53rJneDzihw" target="_qmIu8zo-EfC53rJneDzihw" source="_qmJ9Ezo-EfC53rJneDzihw">
+        <decisionTable xmi:type="decision:DecisionTable" xmi:id="_qmQDsTo-EfC53rJneDzihw"/>
+        <condition xmi:type="expression:Expression" xmi:id="_qmQDsjo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+      </connections>
+      <connections xmi:type="process:SequenceFlow" xmi:id="_qmQqwDo-EfC53rJneDzihw" name="StageAccepté" target="_qmFEkTo-EfC53rJneDzihw" source="_qmKkIDo-EfC53rJneDzihw">
+        <decisionTable xmi:type="decision:DecisionTable" xmi:id="_qmQqwTo-EfC53rJneDzihw"/>
+        <condition xmi:type="expression:Expression" xmi:id="_qmQqwjo-EfC53rJneDzihw" name="true" content="true" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+      </connections>
+      <connections xmi:type="process:SequenceFlow" xmi:id="_qmQqyDo-EfC53rJneDzihw" name="ProblèmeDossier" target="_qmJWAzo-EfC53rJneDzihw" source="_qmKkIDo-EfC53rJneDzihw" isDefault="true">
+        <decisionTable xmi:type="decision:DecisionTable" xmi:id="_qmQqyTo-EfC53rJneDzihw"/>
+        <condition xmi:type="expression:Expression" xmi:id="_qmQqyjo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+      </connections>
+      <connections xmi:type="process:SequenceFlow" xmi:id="_qmRR1To-EfC53rJneDzihw" target="_qmLyQzo-EfC53rJneDzihw" source="_qmLLMDo-EfC53rJneDzihw" isDefault="true">
+        <decisionTable xmi:type="decision:DecisionTable" xmi:id="_qmRR1jo-EfC53rJneDzihw"/>
+        <condition xmi:type="expression:Expression" xmi:id="_qmRR1zo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+      </connections>
+      <connections xmi:type="process:SequenceFlow" xmi:id="_qmR44Do-EfC53rJneDzihw" target="_qmJ9Ezo-EfC53rJneDzihw" source="_qmLLMDo-EfC53rJneDzihw">
+        <decisionTable xmi:type="decision:DecisionTable" xmi:id="_qmR44To-EfC53rJneDzihw"/>
+        <condition xmi:type="expression:Expression" xmi:id="_qmR44jo-EfC53rJneDzihw" name="true" content="true" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+      </connections>
+      <connections xmi:type="process:SequenceFlow" xmi:id="_qmR46To-EfC53rJneDzihw" target="_qmIH6Do-EfC53rJneDzihw" source="_qmLLODo-EfC53rJneDzihw">
+        <decisionTable xmi:type="decision:DecisionTable" xmi:id="_qmR46jo-EfC53rJneDzihw"/>
+        <condition xmi:type="expression:Expression" xmi:id="_qmR46zo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+      </connections>
+      <connections xmi:type="process:SequenceFlow" xmi:id="_qmSf9To-EfC53rJneDzihw" target="_qmIu8zo-EfC53rJneDzihw" source="_qmLyQzo-EfC53rJneDzihw">
+        <decisionTable xmi:type="decision:DecisionTable" xmi:id="_qmSf9jo-EfC53rJneDzihw"/>
+        <condition xmi:type="expression:Expression" xmi:id="_qmSf9zo-EfC53rJneDzihw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+      </connections>
+      <actors xmi:type="process:Actor" xmi:id="_qmFEkDo-EfC53rJneDzihw" documentation="Ceci est un exemple d'acteur associé à tous les utilisateurs d'ACME" name="Employee actor"/>
+      <contract xmi:type="process:Contract" xmi:id="_o2AOIzo-EfC53rJneDzihw"/>
+      <searchIndexes xmi:type="process:SearchIndex" xmi:id="_o2AOEDo-EfC53rJneDzihw">
+        <name xmi:type="expression:Expression" xmi:id="_o2AOETo-EfC53rJneDzihw" content="" returnTypeFixed="true"/>
+        <value xmi:type="expression:Expression" xmi:id="_o2AOEjo-EfC53rJneDzihw" content="" returnTypeFixed="true"/>
+      </searchIndexes>
+      <searchIndexes xmi:type="process:SearchIndex" xmi:id="_o2AOEzo-EfC53rJneDzihw">
+        <name xmi:type="expression:Expression" xmi:id="_o2AOFDo-EfC53rJneDzihw" content="" returnTypeFixed="true"/>
+        <value xmi:type="expression:Expression" xmi:id="_o2AOFTo-EfC53rJneDzihw" content="" returnTypeFixed="true"/>
+      </searchIndexes>
+      <searchIndexes xmi:type="process:SearchIndex" xmi:id="_o2AOFjo-EfC53rJneDzihw">
+        <name xmi:type="expression:Expression" xmi:id="_o2AOFzo-EfC53rJneDzihw" content="" returnTypeFixed="true"/>
+        <value xmi:type="expression:Expression" xmi:id="_o2AOGDo-EfC53rJneDzihw" content="" returnTypeFixed="true"/>
+      </searchIndexes>
+      <searchIndexes xmi:type="process:SearchIndex" xmi:id="_o2AOGTo-EfC53rJneDzihw">
+        <name xmi:type="expression:Expression" xmi:id="_o2AOGjo-EfC53rJneDzihw" content="" returnTypeFixed="true"/>
+        <value xmi:type="expression:Expression" xmi:id="_o2AOGzo-EfC53rJneDzihw" content="" returnTypeFixed="true"/>
+      </searchIndexes>
+      <searchIndexes xmi:type="process:SearchIndex" xmi:id="_o2AOHDo-EfC53rJneDzihw">
+        <name xmi:type="expression:Expression" xmi:id="_o2AOHTo-EfC53rJneDzihw" content="" returnTypeFixed="true"/>
+        <value xmi:type="expression:Expression" xmi:id="_o2AOHjo-EfC53rJneDzihw" content="" returnTypeFixed="true"/>
+      </searchIndexes>
+    </elements>
+    <datatypes xmi:type="process:BooleanType" xmi:id="_lTAOTCHkEfCERoyX9R9ziA" name="Boolean"/>
+    <datatypes xmi:type="process:DateType" xmi:id="_lTAOTSHkEfCERoyX9R9ziA" name="Date"/>
+    <datatypes xmi:type="process:IntegerType" xmi:id="_lTAOTiHkEfCERoyX9R9ziA" name="Integer"/>
+    <datatypes xmi:type="process:LongType" xmi:id="_lTAOTyHkEfCERoyX9R9ziA" name="Long"/>
+    <datatypes xmi:type="process:DoubleType" xmi:id="_lTAOUCHkEfCERoyX9R9ziA" name="Double"/>
+    <datatypes xmi:type="process:StringType" xmi:id="_lTAOUSHkEfCERoyX9R9ziA" name="Text"/>
+    <datatypes xmi:type="process:JavaType" xmi:id="_lTAOUiHkEfCERoyX9R9ziA" name="Java_object"/>
+    <datatypes xmi:type="process:XMLType" xmi:id="_lTAOUyHkEfCERoyX9R9ziA" name="XML"/>
+    <datatypes xmi:type="process:BusinessObjectType" xmi:id="_lTAOVCHkEfCERoyX9R9ziA" name="Business_Object"/>
+  </process:MainProcess>
+  <notation:Diagram xmi:id="_lTA1MCHkEfCERoyX9R9ziA" type="Process" element="_lTAOICHkEfCERoyX9R9ziA" name="MonDiagramme" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="_o2BcMDo-EfC53rJneDzihw" type="2007" element="_kfNM8Do-EfC53rJneDzihw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_o2BcNTo-EfC53rJneDzihw" type="5008"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_o2BcNjo-EfC53rJneDzihw" type="7001">
+        <children xmi:type="notation:Shape" xmi:id="_qmFroDo-EfC53rJneDzihw" type="3005" element="_qmFEkTo-EfC53rJneDzihw" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
+          <children xmi:type="notation:DecorationNode" xmi:id="_qmFroTo-EfC53rJneDzihw" type="5005" element="_qmFEkTo-EfC53rJneDzihw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qmFrojo-EfC53rJneDzihw" x="438" y="260" width="100" height="49"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_qmGStDo-EfC53rJneDzihw" type="3002" element="_qmGSsDo-EfC53rJneDzihw" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_qmGStTo-EfC53rJneDzihw" type="5024" element="_qmGSsDo-EfC53rJneDzihw">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_qmGStjo-EfC53rJneDzihw" y="5"/>
+          </children>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qmGStzo-EfC53rJneDzihw" x="142" y="57"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_qmG5wDo-EfC53rJneDzihw" type="3005" element="_qmGSuDo-EfC53rJneDzihw" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
+          <children xmi:type="notation:DecorationNode" xmi:id="_qmG5wTo-EfC53rJneDzihw" type="5005" element="_qmGSuDo-EfC53rJneDzihw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qmG5wjo-EfC53rJneDzihw" x="867" y="214" width="100" height="49"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_qmG5xzo-EfC53rJneDzihw" type="3003" element="_qmG5wzo-EfC53rJneDzihw" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_qmG5yDo-EfC53rJneDzihw" type="5025" element="_qmG5wzo-EfC53rJneDzihw">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_qmG5yTo-EfC53rJneDzihw" y="5"/>
+          </children>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qmG5yjo-EfC53rJneDzihw" x="363" y="270"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_qmHg3To-EfC53rJneDzihw" type="3005" element="_qmHg0Do-EfC53rJneDzihw" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
+          <children xmi:type="notation:DecorationNode" xmi:id="_qmHg3jo-EfC53rJneDzihw" type="5005" element="_qmHg0Do-EfC53rJneDzihw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qmHg3zo-EfC53rJneDzihw" x="249" y="29" width="172" height="86"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_qmIH5Do-EfC53rJneDzihw" type="3008" element="_qmIH4Do-EfC53rJneDzihw" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_qmIH5To-EfC53rJneDzihw" type="5026" element="_qmIH4Do-EfC53rJneDzihw">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_qmIH5jo-EfC53rJneDzihw" y="5"/>
+          </children>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qmIH5zo-EfC53rJneDzihw" x="895" y="106"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_qmIu8Do-EfC53rJneDzihw" type="3005" element="_qmIH6Do-EfC53rJneDzihw" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
+          <children xmi:type="notation:DecorationNode" xmi:id="_qmIu8To-EfC53rJneDzihw" type="5005" element="_qmIH6Do-EfC53rJneDzihw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qmIu8jo-EfC53rJneDzihw" x="697" y="309" width="100" height="49"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_qmJWADo-EfC53rJneDzihw" type="3005" element="_qmIu8zo-EfC53rJneDzihw" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
+          <children xmi:type="notation:DecorationNode" xmi:id="_qmJWATo-EfC53rJneDzihw" type="5005" element="_qmIu8zo-EfC53rJneDzihw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qmJWAjo-EfC53rJneDzihw" x="886" y="14" width="100" height="49"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_qmJ9EDo-EfC53rJneDzihw" type="3027" element="_qmJWAzo-EfC53rJneDzihw" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
+          <children xmi:type="notation:DecorationNode" xmi:id="_qmJ9ETo-EfC53rJneDzihw" type="5017" element="_qmJWAzo-EfC53rJneDzihw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qmJ9Ejo-EfC53rJneDzihw" x="709" y="212"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_qmJ9IDo-EfC53rJneDzihw" type="3005" element="_qmJ9Ezo-EfC53rJneDzihw" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
+          <children xmi:type="notation:DecorationNode" xmi:id="_qmJ9ITo-EfC53rJneDzihw" type="5005" element="_qmJ9Ezo-EfC53rJneDzihw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qmJ9Ijo-EfC53rJneDzihw" x="603" y="57" width="100" height="49"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_qmKkJDo-EfC53rJneDzihw" type="3008" element="_qmKkIDo-EfC53rJneDzihw" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_qmKkJTo-EfC53rJneDzihw" type="5026" element="_qmKkIDo-EfC53rJneDzihw">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_qmKkJjo-EfC53rJneDzihw" y="5"/>
+          </children>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qmKkJzo-EfC53rJneDzihw" x="598" y="259"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_qmLLNDo-EfC53rJneDzihw" type="3008" element="_qmLLMDo-EfC53rJneDzihw" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_qmLLNTo-EfC53rJneDzihw" type="5026" element="_qmLLMDo-EfC53rJneDzihw">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_qmLLNjo-EfC53rJneDzihw" y="5"/>
+          </children>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qmLLNzo-EfC53rJneDzihw" x="467" y="33"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_qmLyQDo-EfC53rJneDzihw" type="3005" element="_qmLLODo-EfC53rJneDzihw" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
+          <children xmi:type="notation:DecorationNode" xmi:id="_qmLyQTo-EfC53rJneDzihw" type="5005" element="_qmLLODo-EfC53rJneDzihw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qmLyQjo-EfC53rJneDzihw" x="854" y="314" width="125" height="62"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_qmLyUDo-EfC53rJneDzihw" type="3005" element="_qmLyQzo-EfC53rJneDzihw" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
+          <children xmi:type="notation:DecorationNode" xmi:id="_qmLyUTo-EfC53rJneDzihw" type="5005" element="_qmLyQzo-EfC53rJneDzihw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qmLyUjo-EfC53rJneDzihw" x="718" y="10" width="120" height="60"/>
+        </children>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_o2BcMTo-EfC53rJneDzihw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_o2BcMjo-EfC53rJneDzihw" fontName="Segoe UI"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_o2BcMzo-EfC53rJneDzihw"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_o2BcNzo-EfC53rJneDzihw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o2BcNDo-EfC53rJneDzihw" width="998" height="518"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_lTA1SCHkEfCERoyX9R9ziA"/>
+    <edges xmi:type="notation:Connector" xmi:id="_kCGQoDoyEfC53rJneDzihw" type="4001" roundedBendpointsRadius="10" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_kCGQozoyEfC53rJneDzihw" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_kCGQpDoyEfC53rJneDzihw" y="-10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_kCGQoToyEfC53rJneDzihw" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kCGQojoyEfC53rJneDzihw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_qmNAYDo-EfC53rJneDzihw" type="4001" element="_qmMZUDo-EfC53rJneDzihw" source="_qmFroDo-EfC53rJneDzihw" target="_qmG5xzo-EfC53rJneDzihw" roundedBendpointsRadius="10" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_qmNAYTo-EfC53rJneDzihw" type="6001" element="_qmMZUDo-EfC53rJneDzihw">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qmNAYjo-EfC53rJneDzihw" y="-10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_qmNAYzo-EfC53rJneDzihw" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qmNAZDo-EfC53rJneDzihw" points="[-75, -4, 73, -2]$[-152, -13, -4, -11]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qmNAZTo-EfC53rJneDzihw" id="(1.0,0.56)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_qmNAaTo-EfC53rJneDzihw" type="4001" element="_qmNAZjo-EfC53rJneDzihw" source="_qmGStDo-EfC53rJneDzihw" target="_qmHg3To-EfC53rJneDzihw" roundedBendpointsRadius="10" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_qmNAajo-EfC53rJneDzihw" type="6001" element="_qmNAZjo-EfC53rJneDzihw">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qmNAazo-EfC53rJneDzihw" y="-10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_qmNAbDo-EfC53rJneDzihw" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qmNAbTo-EfC53rJneDzihw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_qmNnczo-EfC53rJneDzihw" type="4001" element="_qmNncDo-EfC53rJneDzihw" source="_qmG5wDo-EfC53rJneDzihw" target="_qmLyQDo-EfC53rJneDzihw" roundedBendpointsRadius="10" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_qmNndDo-EfC53rJneDzihw" type="6001" element="_qmNncDo-EfC53rJneDzihw">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qmNndTo-EfC53rJneDzihw" y="-10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_qmNndjo-EfC53rJneDzihw" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qmNndzo-EfC53rJneDzihw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_qmOOgDo-EfC53rJneDzihw" type="4001" element="_qmNneDo-EfC53rJneDzihw" source="_qmHg3To-EfC53rJneDzihw" target="_qmLLNDo-EfC53rJneDzihw" roundedBendpointsRadius="10" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_qmOOgTo-EfC53rJneDzihw" type="6001" element="_qmNneDo-EfC53rJneDzihw">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qmOOgjo-EfC53rJneDzihw" y="-10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_qmOOgzo-EfC53rJneDzihw" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qmOOhDo-EfC53rJneDzihw" points="[0, 0, -66, -13]$[61, 3, -5, -10]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qmOOhTo-EfC53rJneDzihw" id="(1.0,0.38372093023255816)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_qmOOiTo-EfC53rJneDzihw" type="4001" element="_qmOOhjo-EfC53rJneDzihw" source="_qmIH5Do-EfC53rJneDzihw" target="_qmG5wDo-EfC53rJneDzihw" roundedBendpointsRadius="10" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_qmOOijo-EfC53rJneDzihw" type="6001" element="_qmOOhjo-EfC53rJneDzihw">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qmOOizo-EfC53rJneDzihw" y="-10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_qmOOjDo-EfC53rJneDzihw" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qmOOjTo-EfC53rJneDzihw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_qmOOkTo-EfC53rJneDzihw" type="4001" element="_qmOOjjo-EfC53rJneDzihw" source="_qmIH5Do-EfC53rJneDzihw" target="_qmLLNDo-EfC53rJneDzihw" roundedBendpointsRadius="10" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_qmOOkjo-EfC53rJneDzihw" type="6001" element="_qmOOjjo-EfC53rJneDzihw">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qmOOkzo-EfC53rJneDzihw" y="-10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_qmOOlDo-EfC53rJneDzihw" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qmOOlTo-EfC53rJneDzihw" points="[-41, -15, 409, 71]$[-443, -15, 7, 71]$[-443, -71, 7, 15]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qmOOljo-EfC53rJneDzihw" id="(1.0,0.7906976744186046)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_qmO1kzo-EfC53rJneDzihw" type="4001" element="_qmO1kDo-EfC53rJneDzihw" source="_qmIu8Do-EfC53rJneDzihw" target="_qmKkJDo-EfC53rJneDzihw" roundedBendpointsRadius="10" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_qmO1lDo-EfC53rJneDzihw" type="6001" element="_qmO1kDo-EfC53rJneDzihw">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qmO1lTo-EfC53rJneDzihw" y="-10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_qmO1ljo-EfC53rJneDzihw" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qmO1lzo-EfC53rJneDzihw" points="[-75, -9, 79, -1]$[-159, -18, -5, -10]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qmO1mDo-EfC53rJneDzihw" id="(1.0,0.6)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_qmPcoDo-EfC53rJneDzihw" type="4001" element="_qmO1mTo-EfC53rJneDzihw" source="_qmJWADo-EfC53rJneDzihw" target="_qmIH5Do-EfC53rJneDzihw" roundedBendpointsRadius="10" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_qmPcoTo-EfC53rJneDzihw" type="6001" element="_qmO1mTo-EfC53rJneDzihw">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qmPcojo-EfC53rJneDzihw" y="-10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_qmPcozo-EfC53rJneDzihw" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qmPcpDo-EfC53rJneDzihw" points="[-15, 17, 37, -48]$[-53, 50, -1, -15]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qmPcpTo-EfC53rJneDzihw" id="(1.0,0.54)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_qmPcqTo-EfC53rJneDzihw" type="4001" element="_qmPcpjo-EfC53rJneDzihw" source="_qmJ9EDo-EfC53rJneDzihw" target="_qmG5wDo-EfC53rJneDzihw" roundedBendpointsRadius="10" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_qmPcqjo-EfC53rJneDzihw" type="6001" element="_qmPcpjo-EfC53rJneDzihw">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qmPcqzo-EfC53rJneDzihw" y="-10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_qmPcrDo-EfC53rJneDzihw" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qmPcrTo-EfC53rJneDzihw" points="[0, -2, -47, 1]$[48, -20, 1, -17]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qmPcrjo-EfC53rJneDzihw" id="(1.0,0.58)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qmPcrzo-EfC53rJneDzihw" id="(0.05,0.46)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_qmQDszo-EfC53rJneDzihw" type="4001" element="_qmQDsDo-EfC53rJneDzihw" source="_qmJ9IDo-EfC53rJneDzihw" target="_qmJWADo-EfC53rJneDzihw" roundedBendpointsRadius="10" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_qmQDtDo-EfC53rJneDzihw" type="6001" element="_qmQDsDo-EfC53rJneDzihw">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qmQDtTo-EfC53rJneDzihw" y="-10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_qmQDtjo-EfC53rJneDzihw" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qmQDtzo-EfC53rJneDzihw" points="[0, 0, -242, 45]$[243, -24, 1, 21]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qmQDuDo-EfC53rJneDzihw" id="(1.0,0.52)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qmQDuTo-EfC53rJneDzihw" id="(0.11,0.66)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_qmQqwzo-EfC53rJneDzihw" type="4001" element="_qmQqwDo-EfC53rJneDzihw" source="_qmKkJDo-EfC53rJneDzihw" target="_qmFroDo-EfC53rJneDzihw" roundedBendpointsRadius="10" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_qmQqxDo-EfC53rJneDzihw" type="6001" element="_qmQqwDo-EfC53rJneDzihw">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qmQqxTo-EfC53rJneDzihw" y="-10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_qmQqxjo-EfC53rJneDzihw" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qmQqxzo-EfC53rJneDzihw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_qmRR0Do-EfC53rJneDzihw" type="4001" element="_qmQqyDo-EfC53rJneDzihw" source="_qmKkJDo-EfC53rJneDzihw" target="_qmJ9EDo-EfC53rJneDzihw" roundedBendpointsRadius="10" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_qmRR0To-EfC53rJneDzihw" type="6001" element="_qmQqyDo-EfC53rJneDzihw">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qmRR0jo-EfC53rJneDzihw" y="-10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_qmRR0zo-EfC53rJneDzihw" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qmRR1Do-EfC53rJneDzihw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_qmRR2Do-EfC53rJneDzihw" type="4001" element="_qmRR1To-EfC53rJneDzihw" source="_qmLLNDo-EfC53rJneDzihw" target="_qmLyUDo-EfC53rJneDzihw" roundedBendpointsRadius="10" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_qmRR2To-EfC53rJneDzihw" type="6001" element="_qmRR1To-EfC53rJneDzihw">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qmRR2jo-EfC53rJneDzihw" y="-10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_qmRR2zo-EfC53rJneDzihw" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qmRR3Do-EfC53rJneDzihw" points="[-16, 9, -86, 45]$[71, -20, 1, 16]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qmRR3To-EfC53rJneDzihw" id="(1.0,0.7441860465116279)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qmRR3jo-EfC53rJneDzihw" id="(0.15833333333333333,0.65)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_qmR44zo-EfC53rJneDzihw" type="4001" element="_qmR44Do-EfC53rJneDzihw" source="_qmLLNDo-EfC53rJneDzihw" target="_qmJ9IDo-EfC53rJneDzihw" roundedBendpointsRadius="10" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_qmR45Do-EfC53rJneDzihw" type="6001" element="_qmR44Do-EfC53rJneDzihw">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qmR45To-EfC53rJneDzihw" y="-10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_qmR45jo-EfC53rJneDzihw" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qmR45zo-EfC53rJneDzihw" points="[-4, -2, -101, -24]$[60, 29, -37, 7]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qmR46Do-EfC53rJneDzihw" id="(1.0,0.6744186046511628)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_qmSf8Do-EfC53rJneDzihw" type="4001" element="_qmR46To-EfC53rJneDzihw" source="_qmLyQDo-EfC53rJneDzihw" target="_qmIu8Do-EfC53rJneDzihw" roundedBendpointsRadius="10" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_qmSf8To-EfC53rJneDzihw" type="6001" element="_qmR46To-EfC53rJneDzihw">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qmSf8jo-EfC53rJneDzihw" y="-10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_qmSf8zo-EfC53rJneDzihw" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qmSf9Do-EfC53rJneDzihw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_qmSf-Do-EfC53rJneDzihw" type="4001" element="_qmSf9To-EfC53rJneDzihw" source="_qmLyUDo-EfC53rJneDzihw" target="_qmJWADo-EfC53rJneDzihw" roundedBendpointsRadius="10" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_qmSf-To-EfC53rJneDzihw" type="6001" element="_qmSf9To-EfC53rJneDzihw">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qmSf-jo-EfC53rJneDzihw" y="-10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_qmSf-zo-EfC53rJneDzihw" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qmSf_Do-EfC53rJneDzihw" points="[0, 0, -273, -62]$[235, 30, -38, -32]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qmSf_To-EfC53rJneDzihw" id="(1.0,0.35)"/>
+    </edges>
+  </notation:Diagram>
+</xmi:XMI>
