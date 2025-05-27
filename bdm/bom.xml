@@ -1,9 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0">
     <businessObjects>
-        <businessObject qualifiedName="com.company.model.BusinessObject">
+        <businessObject qualifiedName="com.company.model.Convention">
             <fields>
-                <field type="STRING" length="255" name="attribute" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.company.model.Stage" fetchType="LAZY" name="stage" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="referent_nom" nullable="false" collection="false"/>
+                <field type="BOOLEAN" length="255" name="signatureEtudiant" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="signatureReferent" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="signatureResponsable" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="signatureDoyen" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.Stage">
+            <fields>
+                <field type="STRING" length="255" name="etu_nom" nullable="false" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.company.model.SujetStage" fetchType="LAZY" name="sujet" nullable="true" collection="false"/>
+                <field type="OFFSETDATETIME" length="255" name="dateDebut" nullable="true" collection="false"/>
+                <field type="OFFSETDATETIME" length="255" name="dateFin" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.SujetStage">
+            <fields>
+                <field type="STRING" length="255" name="titre" nullable="false" collection="false"/>
+                <field type="TEXT" length="255" name="description" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="proposeParEtudiant" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="type" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="valide" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="sujet_id" nullable="false" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
