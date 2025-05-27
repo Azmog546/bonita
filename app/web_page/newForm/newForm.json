@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "71846adf-2758-4fc6-aefb-bdfe961f42a9",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1748301276654,
+  "lastUpdate" : 1748308961337,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -99,6 +99,18 @@
                 "dimension" : {
                   "type" : "constant",
                   "value" : 12
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 4
                 }
               },
               "reference" : "8be5ec47-5e22-427b-beae-44ba6651c36f",
@@ -197,14 +209,15 @@
                   },
                   "displayedKey" : {
                     "type" : "constant",
-                    "value" : "entry.titre"
+                    "value" : "option.titre"
                   },
                   "returnedKey" : {
                     "type" : "constant",
-                    "value" : "entry.sujet_id"
+                    "value" : "option.titre"
                   },
                   "value" : {
-                    "type" : "variable"
+                    "type" : "variable",
+                    "value" : "sujets"
                   }
                 },
                 "reference" : "6f6c4b54-8f5f-44bd-94b9-758f4c3ba88e",
@@ -383,7 +396,7 @@
       "type" : "json",
       "value" : [
         "{\r",
-        "  \"sujet_id\" : 0\r",
+        "  \"titre\" : \"test\"\r",
         "}"
       ],
       "exposed" : false
@@ -407,7 +420,7 @@
       "type" : "expression",
       "value" : [
         "return {",
-        "\tsujet_id: $data.formInput.sujet_id",
+        "\ttitre: $data.formInput.titre",
         "}"
       ],
       "exposed" : false
