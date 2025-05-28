@@ -1,12 +1,10 @@
 {
-  "id" : "newForm2",
-  "name" : "newForm2",
+  "id" : "newForm20",
+  "name" : "newForm20",
   "type" : "form",
-
-  "uuid" : "c37bac3f-0383-46fa-9333-4b3fd5ac8f00",
+  "uuid" : "1c8198a6-cf8d-46f6-a1e3-aff9db38a7ff",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1748372053038,
-
+  "lastUpdate" : 1748391754357,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -16,9 +14,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-
-        "reference" : "82cd2e8e-ce6d-4d3f-8e84-128e80d9f28d",
-
+        "reference" : "a5343689-00b1-4ae0-b766-883f49cbd58d",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -57,9 +53,7 @@
                   "value" : 12
                 }
               },
-
-              "reference" : "8cd79f7c-ce7a-4c08-a1b3-e6800cdad1f2",
-
+              "reference" : "df4a9354-a788-46e0-b5ea-5c8c71bc3ed2",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -107,9 +101,7 @@
                   "value" : 12
                 }
               },
-
-              "reference" : "25de63be-9a98-4c2a-a36a-e3038870636a",
-
+              "reference" : "97855500-d166-4fb5-a222-6e119bb30a0f",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -125,9 +117,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-
-        "reference" : "b313bc32-1411-455c-9938-18cc9412ebe0",
-
+        "reference" : "ae2aa75e-5412-409a-9cd5-a9c40dc89838",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -136,9 +126,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-
-          "reference" : "10f8835d-f489-4491-98a8-ee5129f5f592",
-
+          "reference" : "1ae2c45a-6a4e-4ca1-bf20-5fd3bc8ea5b9",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -152,25 +140,21 @@
                   "lg" : 12
                 },
                 "propertyValues" : {
-
                   "hidden" : {
                     "type" : "constant",
                     "value" : false
                   },
-
                   "level" : {
                     "type" : "constant",
                     "value" : "Level 4"
-
                   },
                   "cssClasses" : {
                     "type" : "constant",
                     "value" : ""
                   },
-
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Convention"
+                    "value" : "Stage"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -181,7 +165,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "b9706fa3-607f-414b-a9da-df5abb3e7d0f",
+                "reference" : "23e63cca-85ab-4ecf-b2f9-629b172c982c",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -207,18 +191,65 @@
                   "cssClasses" : {
                     "type" : "constant",
                     "value" : ""
-
                   },
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
-
                   }
                 },
-                "reference" : "2bcc294a-ffab-48af-8637-de3ef568e7b3",
+                "reference" : "ff3ae388-6f67-4094-8b06-ef4203a0db7e",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "allowHtml" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "expression",
+                          "value" : "!stage.etu_nom"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Etu_nom"
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "{{stage.etu_nom}}"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        }
+                      },
+                      "reference" : "722e4538-2bdc-4e88-bee3-54ebd34e2dca",
+                      "hasValidationError" : false,
+                      "id" : "pbText",
+                      "description" : ""
+                    }
+                  ],
                   [
                     {
                       "type" : "component",
@@ -243,7 +274,7 @@
                         },
                         "text" : {
                           "type" : "interpolation",
-                          "value" : "Stage"
+                          "value" : "Sujet"
                         },
                         "alignment" : {
                           "type" : "constant",
@@ -254,7 +285,7 @@
                           "value" : 12
                         }
                       },
-                      "reference" : "694b0ce2-caf8-46c3-82a3-a38f8509fe10",
+                      "reference" : "db0ba7df-60d2-403a-9db4-ec7bc5f13d07",
                       "hasValidationError" : false,
                       "id" : "pbTitle",
                       "description" : ""
@@ -286,7 +317,7 @@
                           "value" : 12
                         }
                       },
-                      "reference" : "3580281d-eaf2-4eef-8e55-e685b596f9c8",
+                      "reference" : "66741c03-9133-4931-9b9b-41e91d7ea955",
                       "hasValidationError" : false,
                       "id" : "pbContainer",
                       "rows" : [
@@ -300,37 +331,123 @@
                               "lg" : 12
                             },
                             "propertyValues" : {
+                              "allowHtml" : {
+                                "type" : "constant",
+                                "value" : true
+                              },
                               "labelHidden" : {
                                 "type" : "constant",
                                 "value" : false
                               },
                               "hidden" : {
-                                "type" : "constant",
-                                "value" : false
-                              },
-                              "labelPosition" : {
-                                "type" : "constant",
-                                "value" : "top"
+                                "type" : "expression",
+                                "value" : "!stage_sujet.titre"
                               },
                               "cssClasses" : {
                                 "type" : "constant",
                                 "value" : ""
                               },
-                              "availableValues" : {
-                                "type" : "expression",
-                                "value" : "stage_query"
+                              "label" : {
+                                "type" : "interpolation",
+                                "value" : "Titre"
                               },
-                              "labelWidth" : {
+                              "text" : {
+                                "type" : "interpolation",
+                                "value" : "{{stage_sujet.titre}}"
+                              },
+                              "alignment" : {
                                 "type" : "constant",
-                                "value" : 1
+                                "value" : "left"
+                              },
+                              "dimension" : {
+                                "type" : "constant",
+                                "value" : 12
+                              }
+                            },
+                            "reference" : "91c8456b-3e3a-47ab-b4a5-6adf19f4419b",
+                            "hasValidationError" : false,
+                            "id" : "pbText",
+                            "description" : ""
+                          }
+                        ],
+                        [
+                          {
+                            "type" : "component",
+                            "dimension" : {
+                              "md" : 12,
+                              "sm" : 12,
+                              "xs" : 12,
+                              "lg" : 12
+                            },
+                            "propertyValues" : {
+                              "allowHtml" : {
+                                "type" : "constant",
+                                "value" : true
+                              },
+                              "labelHidden" : {
+                                "type" : "constant",
+                                "value" : false
+                              },
+                              "hidden" : {
+                                "type" : "expression",
+                                "value" : "!stage_sujet.description"
+                              },
+                              "cssClasses" : {
+                                "type" : "constant",
+                                "value" : ""
                               },
                               "label" : {
                                 "type" : "interpolation",
-                                "value" : "Stage"
+                                "value" : "Description"
                               },
-                              "placeholder" : {
+                              "text" : {
+                                "type" : "interpolation",
+                                "value" : "{{stage_sujet.description}}"
+                              },
+                              "alignment" : {
                                 "type" : "constant",
-                                "value" : "Select a Stage"
+                                "value" : "left"
+                              },
+                              "dimension" : {
+                                "type" : "constant",
+                                "value" : 12
+                              }
+                            },
+                            "reference" : "84660d2d-a25b-47c6-a835-64cd4d225a74",
+                            "hasValidationError" : false,
+                            "id" : "pbText",
+                            "description" : ""
+                          }
+                        ],
+                        [
+                          {
+                            "type" : "component",
+                            "dimension" : {
+                              "md" : 12,
+                              "sm" : 12,
+                              "xs" : 12,
+                              "lg" : 12
+                            },
+                            "propertyValues" : {
+                              "labelHidden" : {
+                                "type" : "constant",
+                                "value" : false
+                              },
+                              "hidden" : {
+                                "type" : "expression",
+                                "value" : "!stage_sujet.proposeParEtudiant"
+                              },
+                              "cssClasses" : {
+                                "type" : "constant",
+                                "value" : ""
+                              },
+                              "disabled" : {
+                                "type" : "constant",
+                                "value" : true
+                              },
+                              "label" : {
+                                "type" : "interpolation",
+                                "value" : "Propose Par Etudiant"
                               },
                               "dimension" : {
                                 "type" : "constant",
@@ -338,16 +455,12 @@
                               },
                               "value" : {
                                 "type" : "variable",
-                                "value" : "convention_stage"
-                              },
-                              "required" : {
-                                "type" : "constant",
-                                "value" : true
+                                "value" : "stage_sujet.proposeParEtudiant"
                               }
                             },
-                            "reference" : "e91b807e-2508-450a-85ea-fdfbc73619ee",
+                            "reference" : "596a109c-4839-4a49-8f26-9c6ea2aa3323",
                             "hasValidationError" : false,
-                            "id" : "pbSelect",
+                            "id" : "pbCheckbox",
                             "description" : ""
                           }
                         ],
@@ -361,402 +474,38 @@
                               "lg" : 12
                             },
                             "propertyValues" : {
-                              "allowHtml" : {
-                                "type" : "constant",
-                                "value" : true
-                              },
                               "labelHidden" : {
                                 "type" : "constant",
                                 "value" : false
                               },
                               "hidden" : {
                                 "type" : "expression",
-                                "value" : "!convention_stage.etu_nom"
+                                "value" : "!stage_sujet.valide"
                               },
                               "cssClasses" : {
                                 "type" : "constant",
                                 "value" : ""
                               },
-                              "label" : {
-                                "type" : "interpolation",
-                                "value" : "Etu_nom"
-                              },
-                              "text" : {
-                                "type" : "interpolation",
-                                "value" : "{{convention_stage.etu_nom}}"
-                              },
-                              "alignment" : {
-                                "type" : "constant",
-                                "value" : "left"
-                              },
-                              "dimension" : {
-                                "type" : "constant",
-                                "value" : 12
-                              }
-                            },
-                            "reference" : "ab515331-3ae8-4307-b871-3236c4a95919",
-                            "hasValidationError" : false,
-                            "id" : "pbText",
-                            "description" : ""
-                          }
-                        ],
-                        [
-                          {
-                            "type" : "component",
-                            "dimension" : {
-                              "md" : 12,
-                              "sm" : 12,
-                              "xs" : 12,
-                              "lg" : 12
-                            },
-                            "propertyValues" : {
-                              "hidden" : {
-                                "type" : "constant",
-                                "value" : false
-                              },
-                              "level" : {
-                                "type" : "constant",
-                                "value" : "Level 4"
-                              },
-                              "cssClasses" : {
-                                "type" : "constant",
-                                "value" : ""
-                              },
-                              "text" : {
-                                "type" : "interpolation",
-                                "value" : "Sujet"
-                              },
-                              "alignment" : {
-                                "type" : "constant",
-                                "value" : "left"
-                              },
-                              "dimension" : {
-                                "type" : "constant",
-                                "value" : 12
-                              }
-                            },
-                            "reference" : "beb69aee-c38a-4c3f-bf0f-aa0db1322d94",
-                            "hasValidationError" : false,
-                            "id" : "pbTitle",
-                            "description" : ""
-                          }
-                        ],
-                        [
-                          {
-                            "type" : "container",
-                            "dimension" : {
-                              "md" : 12,
-                              "sm" : 12,
-                              "xs" : 12,
-                              "lg" : 12
-                            },
-                            "propertyValues" : {
-                              "repeatedCollection" : {
-                                "type" : "variable"
-                              },
-                              "hidden" : {
-                                "type" : "constant",
-                                "value" : false
-                              },
-                              "cssClasses" : {
-                                "type" : "constant",
-                                "value" : ""
-                              },
-                              "dimension" : {
-                                "type" : "constant",
-                                "value" : 12
-                              }
-                            },
-                            "reference" : "cec5fbbe-9eaf-4ddf-824d-51c3f00bf9c7",
-                            "hasValidationError" : false,
-                            "id" : "pbContainer",
-                            "rows" : [
-                              [
-                                {
-                                  "type" : "component",
-                                  "dimension" : {
-                                    "md" : 12,
-                                    "sm" : 12,
-                                    "xs" : 12,
-                                    "lg" : 12
-                                  },
-                                  "propertyValues" : {
-                                    "allowHtml" : {
-                                      "type" : "constant",
-                                      "value" : true
-                                    },
-                                    "labelHidden" : {
-                                      "type" : "constant",
-                                      "value" : false
-                                    },
-                                    "hidden" : {
-                                      "type" : "expression",
-                                      "value" : "!convention_stage_sujet.titre"
-                                    },
-                                    "cssClasses" : {
-                                      "type" : "constant",
-                                      "value" : ""
-                                    },
-                                    "label" : {
-                                      "type" : "interpolation",
-                                      "value" : "Titre"
-                                    },
-                                    "text" : {
-                                      "type" : "interpolation",
-                                      "value" : "{{convention_stage_sujet.titre}}"
-                                    },
-                                    "alignment" : {
-                                      "type" : "constant",
-                                      "value" : "left"
-                                    },
-                                    "dimension" : {
-                                      "type" : "constant",
-                                      "value" : 12
-                                    }
-                                  },
-                                  "reference" : "24f30b95-388c-4fb9-9b42-12594b114d07",
-                                  "hasValidationError" : false,
-                                  "id" : "pbText",
-                                  "description" : ""
-                                }
-                              ],
-                              [
-                                {
-                                  "type" : "component",
-                                  "dimension" : {
-                                    "md" : 12,
-                                    "sm" : 12,
-                                    "xs" : 12,
-                                    "lg" : 12
-                                  },
-                                  "propertyValues" : {
-                                    "allowHtml" : {
-                                      "type" : "constant",
-                                      "value" : true
-                                    },
-                                    "labelHidden" : {
-                                      "type" : "constant",
-                                      "value" : false
-                                    },
-                                    "hidden" : {
-                                      "type" : "expression",
-                                      "value" : "!convention_stage_sujet.description"
-                                    },
-                                    "cssClasses" : {
-                                      "type" : "constant",
-                                      "value" : ""
-                                    },
-                                    "label" : {
-                                      "type" : "interpolation",
-                                      "value" : "Description"
-                                    },
-                                    "text" : {
-                                      "type" : "interpolation",
-                                      "value" : "{{convention_stage_sujet.description}}"
-                                    },
-                                    "alignment" : {
-                                      "type" : "constant",
-                                      "value" : "left"
-                                    },
-                                    "dimension" : {
-                                      "type" : "constant",
-                                      "value" : 12
-                                    }
-                                  },
-                                  "reference" : "6ff0c227-ea7e-4ad8-ad85-9cc1c83add48",
-                                  "hasValidationError" : false,
-                                  "id" : "pbText",
-                                  "description" : ""
-                                }
-                              ],
-                              [
-                                {
-                                  "type" : "component",
-                                  "dimension" : {
-                                    "md" : 12,
-                                    "sm" : 12,
-                                    "xs" : 12,
-                                    "lg" : 12
-                                  },
-                                  "propertyValues" : {
-                                    "labelHidden" : {
-                                      "type" : "constant",
-                                      "value" : false
-                                    },
-                                    "hidden" : {
-                                      "type" : "expression",
-                                      "value" : "!convention_stage_sujet.proposeParEtudiant"
-                                    },
-                                    "cssClasses" : {
-                                      "type" : "constant",
-                                      "value" : ""
-                                    },
-                                    "disabled" : {
-                                      "type" : "constant",
-                                      "value" : true
-                                    },
-                                    "label" : {
-                                      "type" : "interpolation",
-                                      "value" : "Propose Par Etudiant"
-                                    },
-                                    "dimension" : {
-                                      "type" : "constant",
-                                      "value" : 12
-                                    },
-                                    "value" : {
-                                      "type" : "variable",
-                                      "value" : "convention_stage_sujet.proposeParEtudiant"
-                                    }
-                                  },
-                                  "reference" : "a89975fb-5fa0-4dc4-bb62-c59bac1ac77c",
-                                  "hasValidationError" : false,
-                                  "id" : "pbCheckbox",
-                                  "description" : ""
-                                }
-                              ],
-                              [
-                                {
-                                  "type" : "component",
-                                  "dimension" : {
-                                    "md" : 12,
-                                    "sm" : 12,
-                                    "xs" : 12,
-                                    "lg" : 12
-                                  },
-                                  "propertyValues" : {
-                                    "labelHidden" : {
-                                      "type" : "constant",
-                                      "value" : false
-                                    },
-                                    "hidden" : {
-                                      "type" : "expression",
-                                      "value" : "!convention_stage_sujet.valide"
-                                    },
-                                    "cssClasses" : {
-                                      "type" : "constant",
-                                      "value" : ""
-                                    },
-                                    "disabled" : {
-                                      "type" : "constant",
-                                      "value" : true
-                                    },
-                                    "label" : {
-                                      "type" : "interpolation",
-                                      "value" : "Valide"
-                                    },
-                                    "dimension" : {
-                                      "type" : "constant",
-                                      "value" : 12
-                                    },
-                                    "value" : {
-                                      "type" : "variable",
-                                      "value" : "convention_stage_sujet.valide"
-                                    }
-                                  },
-                                  "reference" : "4d121e42-448d-41e4-88ce-c8aac455ae9c",
-                                  "hasValidationError" : false,
-                                  "id" : "pbCheckbox",
-                                  "description" : ""
-                                }
-                              ]
-                            ]
-                          }
-                        ],
-                        [
-                          {
-                            "type" : "component",
-                            "dimension" : {
-                              "md" : 12,
-                              "sm" : 12,
-                              "xs" : 12,
-                              "lg" : 12
-                            },
-                            "propertyValues" : {
-                              "allowHtml" : {
+                              "disabled" : {
                                 "type" : "constant",
                                 "value" : true
                               },
-                              "labelHidden" : {
-                                "type" : "constant",
-                                "value" : false
-                              },
-                              "hidden" : {
-                                "type" : "expression",
-                                "value" : "!convention_stage.dateDebut"
-                              },
-                              "cssClasses" : {
-                                "type" : "constant",
-                                "value" : ""
-                              },
                               "label" : {
                                 "type" : "interpolation",
-                                "value" : "Date Debut"
-                              },
-                              "text" : {
-                                "type" : "interpolation",
-                                "value" : "{{convention_stage.dateDebut|uiDate}}"
-                              },
-                              "alignment" : {
-                                "type" : "constant",
-                                "value" : "left"
+                                "value" : "Valide"
                               },
                               "dimension" : {
                                 "type" : "constant",
                                 "value" : 12
+                              },
+                              "value" : {
+                                "type" : "variable",
+                                "value" : "stage_sujet.valide"
                               }
                             },
-                            "reference" : "c62c3fc8-a55c-45d1-b132-d29594216a59",
+                            "reference" : "08beaff5-31ca-4bdb-bf88-f473221cc2f3",
                             "hasValidationError" : false,
-                            "id" : "pbText",
-                            "description" : ""
-                          }
-                        ],
-                        [
-                          {
-                            "type" : "component",
-                            "dimension" : {
-                              "md" : 12,
-                              "sm" : 12,
-                              "xs" : 12,
-                              "lg" : 12
-                            },
-                            "propertyValues" : {
-                              "allowHtml" : {
-                                "type" : "constant",
-                                "value" : true
-                              },
-                              "labelHidden" : {
-                                "type" : "constant",
-                                "value" : false
-                              },
-                              "hidden" : {
-                                "type" : "expression",
-                                "value" : "!convention_stage.dateFin"
-                              },
-                              "cssClasses" : {
-                                "type" : "constant",
-                                "value" : ""
-                              },
-                              "label" : {
-                                "type" : "interpolation",
-                                "value" : "Date Fin"
-                              },
-                              "text" : {
-                                "type" : "interpolation",
-                                "value" : "{{convention_stage.dateFin|uiDate}}"
-                              },
-                              "alignment" : {
-                                "type" : "constant",
-                                "value" : "left"
-                              },
-                              "dimension" : {
-                                "type" : "constant",
-                                "value" : 12
-                              }
-                            },
-                            "reference" : "eea41fcd-501a-4723-9317-8daa68a10443",
-                            "hasValidationError" : false,
-                            "id" : "pbText",
+                            "id" : "pbCheckbox",
                             "description" : ""
                           }
                         ]
@@ -773,45 +522,270 @@
                         "lg" : 12
                       },
                       "propertyValues" : {
-                        "allowHtml" : {
+                        "showNow" : {
                           "type" : "constant",
                           "value" : true
                         },
-                        "labelHidden" : {
+                        "hidden" : {
                           "type" : "constant",
                           "value" : false
                         },
-                        "hidden" : {
-                          "type" : "expression",
-                          "value" : "!convention.referent_nom"
+                        "inlineInput" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "dateFormat" : {
+                          "type" : "constant",
+                          "value" : "MM/dd/yyyy"
                         },
                         "cssClasses" : {
                           "type" : "constant",
                           "value" : ""
                         },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Referent_nom"
+                          "value" : "Date Debut"
                         },
-                        "text" : {
-                          "type" : "interpolation",
-                          "value" : "{{convention.referent_nom}}"
+                        "type" : {
+                          "type" : "constant"
                         },
-                        "alignment" : {
+                        "required" : {
                           "type" : "constant",
-                          "value" : "left"
+                          "value" : false
+                        },
+                        "todayLabel" : {
+                          "type" : "constant",
+                          "value" : "Today"
+                        },
+                        "timePlaceholder" : {
+                          "type" : "constant",
+                          "value" : "Enter a time (h:mm:ss a)"
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "showToday" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "timeFormat" : {
+                          "type" : "constant",
+                          "value" : "h:mm:ss a"
+                        },
+                        "placeholder" : {
+                          "type" : "constant",
+                          "value" : "Enter a date (mm/dd/yyyy)"
+                        },
+                        "nowLabel" : {
+                          "type" : "constant",
+                          "value" : "Now"
                         },
                         "dimension" : {
                           "type" : "constant",
                           "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "stage.dateDebut"
+                        },
+                        "withTimeZone" : {
+                          "type" : "constant",
+                          "value" : true
                         }
                       },
-                      "reference" : "57bfdfea-bdc2-4321-8770-344e69737dad",
+                      "reference" : "787ee53e-c2ca-4d4d-affc-3292d983ebee",
                       "hasValidationError" : false,
-                      "id" : "pbText",
+                      "id" : "pbDateTimePicker",
                       "description" : ""
                     }
                   ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "showNow" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "inlineInput" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "dateFormat" : {
+                          "type" : "constant",
+                          "value" : "MM/dd/yyyy"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Date Fin"
+                        },
+                        "type" : {
+                          "type" : "constant"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "todayLabel" : {
+                          "type" : "constant",
+                          "value" : "Today"
+                        },
+                        "timePlaceholder" : {
+                          "type" : "constant",
+                          "value" : "Enter a time (h:mm:ss a)"
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "showToday" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "timeFormat" : {
+                          "type" : "constant",
+                          "value" : "h:mm:ss a"
+                        },
+                        "placeholder" : {
+                          "type" : "constant",
+                          "value" : "Enter a date (mm/dd/yyyy)"
+                        },
+                        "nowLabel" : {
+                          "type" : "constant",
+                          "value" : "Now"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "stage.dateFin"
+                        },
+                        "withTimeZone" : {
+                          "type" : "constant",
+                          "value" : true
+                        }
+                      },
+                      "reference" : "75d4536e-a61f-4fcc-8a1b-4277a141cfc1",
+                      "hasValidationError" : false,
+                      "id" : "pbDateTimePicker",
+                      "description" : ""
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "level" : {
+                    "type" : "constant",
+                    "value" : "Level 4"
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "Convention"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "7763c203-f262-4992-821e-bac1f8dab5c4",
+                "hasValidationError" : false,
+                "id" : "pbTitle",
+                "description" : ""
+              }
+            ],
+            [
+              {
+                "type" : "container",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "repeatedCollection" : {
+                    "type" : "variable"
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "587294bd-09ed-4d3e-8320-a844d9a3249c",
+                "hasValidationError" : false,
+                "id" : "pbContainer",
+                "rows" : [
                   [
                     {
                       "type" : "component",
@@ -827,8 +801,8 @@
                           "value" : false
                         },
                         "hidden" : {
-                          "type" : "expression",
-                          "value" : "!convention.signatureEtudiant"
+                          "type" : "constant",
+                          "value" : false
                         },
                         "cssClasses" : {
                           "type" : "constant",
@@ -836,7 +810,7 @@
                         },
                         "disabled" : {
                           "type" : "constant",
-                          "value" : true
+                          "value" : false
                         },
                         "label" : {
                           "type" : "interpolation",
@@ -851,7 +825,7 @@
                           "value" : "convention.signatureEtudiant"
                         }
                       },
-                      "reference" : "f7f2af14-d108-4e5e-879b-21db4ed45df6",
+                      "reference" : "0fac82fc-02c8-4460-9eb2-8b4b73b2c88c",
                       "hasValidationError" : false,
                       "id" : "pbCheckbox",
                       "description" : ""
@@ -872,8 +846,8 @@
                           "value" : false
                         },
                         "hidden" : {
-                          "type" : "constant",
-                          "value" : false
+                          "type" : "expression",
+                          "value" : "!convention.signatureReferent"
                         },
                         "cssClasses" : {
                           "type" : "constant",
@@ -881,7 +855,7 @@
                         },
                         "disabled" : {
                           "type" : "constant",
-                          "value" : false
+                          "value" : true
                         },
                         "label" : {
                           "type" : "interpolation",
@@ -896,7 +870,7 @@
                           "value" : "convention.signatureReferent"
                         }
                       },
-                      "reference" : "181bbb13-9575-44f9-a070-ef579c29620f",
+                      "reference" : "ef8433c3-020c-44d9-bdb3-a4e861be5d42",
                       "hasValidationError" : false,
                       "id" : "pbCheckbox",
                       "description" : ""
@@ -941,7 +915,7 @@
                           "value" : "convention.signatureResponsable"
                         }
                       },
-                      "reference" : "a4931999-f849-47fd-bcce-284dad097ab4",
+                      "reference" : "34527fa2-26e5-4faf-ae7a-4ad10920029e",
                       "hasValidationError" : false,
                       "id" : "pbCheckbox",
                       "description" : ""
@@ -986,14 +960,13 @@
                           "value" : "convention.signatureDoyen"
                         }
                       },
-                      "reference" : "523f9499-a929-46c0-973f-d146c416e94e",
+                      "reference" : "abe60bde-156f-4e34-a550-de98e3d91588",
                       "hasValidationError" : false,
                       "id" : "pbCheckbox",
                       "description" : ""
                     }
                   ]
                 ]
-
               }
             ],
             [
@@ -1071,9 +1044,7 @@
                     "value" : 12
                   }
                 },
-
-                "reference" : "f76319b1-7f12-4bce-9603-b060666ffad9",
-
+                "reference" : "3537e86e-ad3d-4440-9fb6-b98260922560",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -1125,9 +1096,7 @@
                     "value" : 12
                   }
                 },
-
-                "reference" : "bb4d6696-d5d6-4d3c-9918-a6b12a5b17ef",
-
+                "reference" : "c534e890-8d80-4f50-a494-eab1166933a2",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -1139,7 +1108,6 @@
     ]
   ],
   "variables" : {
-
     "convention" : {
       "type" : "url",
       "value" : [
@@ -1147,10 +1115,10 @@
       ],
       "exposed" : false
     },
-    "convention_stage_sujet" : {
+    "stage_sujet" : {
       "type" : "url",
       "value" : [
-        "{{convention_stage|lazyRef:'sujet'}}"
+        "{{stage|lazyRef:'sujet'}}"
       ],
       "exposed" : false
     },
@@ -1158,7 +1126,13 @@
       "type" : "url",
       "value" : [
         "../API/bpm/userTask/{{taskId}}"
-
+      ],
+      "exposed" : false
+    },
+    "stage" : {
+      "type" : "url",
+      "value" : [
+        "../{{context.stage_ref.link}}"
       ],
       "exposed" : false
     },
@@ -1180,21 +1154,20 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
-
-        "if( $data.convention && $data.convention_stage && $data.convention_stage_sujet ){",
+        "if( $data.stage && $data.stage_sujet && $data.convention ){",
         "\t//attach lazy references variables to parent variables",
-        "\t$data.convention.stage = $data.convention_stage;",
-        "\t$data.convention.stage.sujet = $data.convention_stage_sujet;",
+        "\t$data.stage.sujet = $data.stage_sujet;",
         "\treturn {",
+        "\t\t//map stage variable to expected task contract input",
+        "\t\tstageInput: {",
+        "\t\t\tdateDebut: $data.stage.dateDebut !== undefined ? $data.stage.dateDebut : null,",
+        "\t\t\tdateFin: $data.stage.dateFin !== undefined ? $data.stage.dateFin : null",
+        "\t\t},",
         "\t\t//map convention variable to expected task contract input",
         "\t\tconventionInput: {",
-        "\t\t\tstage: $data.convention.stage ? {",
-        "\t\t\t\tpersistenceId_string: $data.convention.stage.persistenceId_string !== undefined ? $data.convention.stage.persistenceId_string : null",
-        "\t\t\t} : null,",
-        "\t\t\tsignatureReferent: $data.convention.signatureReferent !== undefined ? $data.convention.signatureReferent : null",
+        "\t\t\tsignatureEtudiant: $data.convention.signatureEtudiant !== undefined ? $data.convention.signatureEtudiant : null",
         "\t\t}",
         "\t}",
-
         "}"
       ],
       "exposed" : false
@@ -1206,7 +1179,6 @@
       ],
       "exposed" : false
     },
-
     "convention_stage" : {
       "type" : "url",
       "value" : [
@@ -1214,14 +1186,6 @@
       ],
       "exposed" : false
     },
-    "stage_query" : {
-      "type" : "url",
-      "value" : [
-        "../API/bdm/businessData/com.company.model.Stage?q=find&p=0&c=99"
-      ],
-      "exposed" : false
-    },
-
     "taskId" : {
       "type" : "urlparameter",
       "value" : [
@@ -1232,18 +1196,14 @@
   },
   "assets" : [
     {
-
-      "id" : "fa4333f6-0646-4faa-8305-1d732969b90d",
-
+      "id" : "91ae59fd-8c36-4ad7-be43-27da203ec309",
       "name" : "style.css",
       "type" : "css",
       "order" : 0,
       "external" : false
     },
     {
-
-      "id" : "b671bda7-66b5-4c3e-a3cd-cdef26af8e2f",
-
+      "id" : "0b0321de-e209-4c88-85e6-05846342f5d8",
       "name" : "localization.json",
       "type" : "json",
       "order" : 0,

@@ -1,12 +1,10 @@
 {
-  "id" : "newForm1",
-  "name" : "newForm1",
+  "id" : "newForm3",
+  "name" : "newForm3",
   "type" : "form",
-
-  "uuid" : "0822a874-f6f7-4629-a081-0423a4bc3ba5",
+  "uuid" : "dbd5a3c6-78e9-47c4-98c2-67c014e204e9",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1748371937058,
-
+  "lastUpdate" : 1748372084135,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -16,9 +14,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-
-        "reference" : "093b0fe0-b29c-4cd8-8068-b460637bdabc",
-
+        "reference" : "df74df33-69b7-4aef-a61d-6fba8dcc176a",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -57,9 +53,7 @@
                   "value" : 12
                 }
               },
-
-              "reference" : "6005164b-8ca9-42ec-a8a5-73d8947be733",
-
+              "reference" : "7862d7e5-d974-4ebd-8499-fbedd687c197",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -107,9 +101,7 @@
                   "value" : 12
                 }
               },
-
-              "reference" : "b40834e2-c6c2-474f-8971-25352d3a5162",
-
+              "reference" : "5943d952-acfc-49ef-a805-b18e8c366610",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -125,9 +117,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-
-        "reference" : "1f71e271-1ca0-4c88-a2db-aaa82bc9c0c3",
-
+        "reference" : "f2e8e88a-5ca9-4d82-8808-c605c3f35266",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -136,9 +126,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-
-          "reference" : "2081b9c7-536e-4fb2-8b1d-930c111fb337",
-
+          "reference" : "ebb30a0e-0874-44e2-a790-c094e0698208",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -152,25 +140,21 @@
                   "lg" : 12
                 },
                 "propertyValues" : {
-
                   "hidden" : {
                     "type" : "constant",
                     "value" : false
                   },
-
                   "level" : {
                     "type" : "constant",
                     "value" : "Level 4"
-
                   },
                   "cssClasses" : {
                     "type" : "constant",
                     "value" : ""
                   },
-
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Sujet_choix"
+                    "value" : "Convention"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -181,7 +165,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "bb4266e3-8c92-4833-b38e-cb74aac0af5e",
+                "reference" : "adff3c5a-134b-4a00-a1d1-f0f70c7d59dc",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -207,15 +191,13 @@
                   "cssClasses" : {
                     "type" : "constant",
                     "value" : ""
-
                   },
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
-
                   }
                 },
-                "reference" : "f18a5f79-6ec7-4c30-bab0-9235a2b30211",
+                "reference" : "47ac8400-cc3b-4434-89ba-08f487f08f93",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -229,29 +211,21 @@
                         "lg" : 12
                       },
                       "propertyValues" : {
-                        "allowHtml" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "labelHidden" : {
+                        "hidden" : {
                           "type" : "constant",
                           "value" : false
                         },
-                        "hidden" : {
-                          "type" : "expression",
-                          "value" : "!sujet_choix.titre"
+                        "level" : {
+                          "type" : "constant",
+                          "value" : "Level 4"
                         },
                         "cssClasses" : {
                           "type" : "constant",
                           "value" : ""
                         },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Titre"
-                        },
                         "text" : {
                           "type" : "interpolation",
-                          "value" : "{{sujet_choix.titre}}"
+                          "value" : "Stage"
                         },
                         "alignment" : {
                           "type" : "constant",
@@ -262,10 +236,190 @@
                           "value" : 12
                         }
                       },
-                      "reference" : "e790363b-33e4-44e3-8fd8-9b4cc2132fcb",
+                      "reference" : "c51cfc90-a238-4348-bf1a-52e181fae607",
                       "hasValidationError" : false,
-                      "id" : "pbText",
+                      "id" : "pbTitle",
                       "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "container",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "repeatedCollection" : {
+                          "type" : "variable"
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        }
+                      },
+                      "reference" : "70fbd8e3-e911-4468-b02a-fe64e699e397",
+                      "hasValidationError" : false,
+                      "id" : "pbContainer",
+                      "rows" : [
+                        [
+                          {
+                            "type" : "component",
+                            "dimension" : {
+                              "md" : 12,
+                              "sm" : 12,
+                              "xs" : 12,
+                              "lg" : 12
+                            },
+                            "propertyValues" : {
+                              "allowHtml" : {
+                                "type" : "constant",
+                                "value" : true
+                              },
+                              "labelHidden" : {
+                                "type" : "constant",
+                                "value" : false
+                              },
+                              "hidden" : {
+                                "type" : "expression",
+                                "value" : "!convention_stage.etu_nom"
+                              },
+                              "cssClasses" : {
+                                "type" : "constant",
+                                "value" : ""
+                              },
+                              "label" : {
+                                "type" : "interpolation",
+                                "value" : "Etu_nom"
+                              },
+                              "text" : {
+                                "type" : "interpolation",
+                                "value" : "{{convention_stage.etu_nom}}"
+                              },
+                              "alignment" : {
+                                "type" : "constant",
+                                "value" : "left"
+                              },
+                              "dimension" : {
+                                "type" : "constant",
+                                "value" : 12
+                              }
+                            },
+                            "reference" : "110c4660-257f-4479-b08a-474e0d659e43",
+                            "hasValidationError" : false,
+                            "id" : "pbText",
+                            "description" : ""
+                          }
+                        ],
+                        [
+                          {
+                            "type" : "component",
+                            "dimension" : {
+                              "md" : 12,
+                              "sm" : 12,
+                              "xs" : 12,
+                              "lg" : 12
+                            },
+                            "propertyValues" : {
+                              "allowHtml" : {
+                                "type" : "constant",
+                                "value" : true
+                              },
+                              "labelHidden" : {
+                                "type" : "constant",
+                                "value" : false
+                              },
+                              "hidden" : {
+                                "type" : "expression",
+                                "value" : "!convention_stage.dateDebut"
+                              },
+                              "cssClasses" : {
+                                "type" : "constant",
+                                "value" : ""
+                              },
+                              "label" : {
+                                "type" : "interpolation",
+                                "value" : "Date Debut"
+                              },
+                              "text" : {
+                                "type" : "interpolation",
+                                "value" : "{{convention_stage.dateDebut|uiDate}}"
+                              },
+                              "alignment" : {
+                                "type" : "constant",
+                                "value" : "left"
+                              },
+                              "dimension" : {
+                                "type" : "constant",
+                                "value" : 12
+                              }
+                            },
+                            "reference" : "f874dc78-1607-4b9d-923d-fc19539a6271",
+                            "hasValidationError" : false,
+                            "id" : "pbText",
+                            "description" : ""
+                          }
+                        ],
+                        [
+                          {
+                            "type" : "component",
+                            "dimension" : {
+                              "md" : 12,
+                              "sm" : 12,
+                              "xs" : 12,
+                              "lg" : 12
+                            },
+                            "propertyValues" : {
+                              "allowHtml" : {
+                                "type" : "constant",
+                                "value" : true
+                              },
+                              "labelHidden" : {
+                                "type" : "constant",
+                                "value" : false
+                              },
+                              "hidden" : {
+                                "type" : "expression",
+                                "value" : "!convention_stage.dateFin"
+                              },
+                              "cssClasses" : {
+                                "type" : "constant",
+                                "value" : ""
+                              },
+                              "label" : {
+                                "type" : "interpolation",
+                                "value" : "Date Fin"
+                              },
+                              "text" : {
+                                "type" : "interpolation",
+                                "value" : "{{convention_stage.dateFin|uiDate}}"
+                              },
+                              "alignment" : {
+                                "type" : "constant",
+                                "value" : "left"
+                              },
+                              "dimension" : {
+                                "type" : "constant",
+                                "value" : 12
+                              }
+                            },
+                            "reference" : "bd39956a-439c-4506-90a5-cf34da0158ce",
+                            "hasValidationError" : false,
+                            "id" : "pbText",
+                            "description" : ""
+                          }
+                        ]
+                      ]
                     }
                   ],
                   [
@@ -288,7 +442,7 @@
                         },
                         "hidden" : {
                           "type" : "expression",
-                          "value" : "!sujet_choix.description"
+                          "value" : "!convention.referent_nom"
                         },
                         "cssClasses" : {
                           "type" : "constant",
@@ -296,11 +450,11 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Description"
+                          "value" : "Referent_nom"
                         },
                         "text" : {
                           "type" : "interpolation",
-                          "value" : "{{sujet_choix.description}}"
+                          "value" : "{{convention.referent_nom}}"
                         },
                         "alignment" : {
                           "type" : "constant",
@@ -311,7 +465,7 @@
                           "value" : 12
                         }
                       },
-                      "reference" : "e50a3b71-259a-481e-8eea-3680d4472746",
+                      "reference" : "01a7cf75-2456-48e1-93f6-940b8628bce3",
                       "hasValidationError" : false,
                       "id" : "pbText",
                       "description" : ""
@@ -333,7 +487,7 @@
                         },
                         "hidden" : {
                           "type" : "expression",
-                          "value" : "!sujet_choix.proposeParEtudiant"
+                          "value" : "!convention.signatureEtudiant"
                         },
                         "cssClasses" : {
                           "type" : "constant",
@@ -345,7 +499,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Propose Par Etudiant"
+                          "value" : "Signature Etudiant"
                         },
                         "dimension" : {
                           "type" : "constant",
@@ -353,10 +507,55 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "sujet_choix.proposeParEtudiant"
+                          "value" : "convention.signatureEtudiant"
                         }
                       },
-                      "reference" : "297290e0-0348-4fe3-892e-dfd04fc8952d",
+                      "reference" : "ce0f7e61-6e21-4661-b3b7-844165add960",
+                      "hasValidationError" : false,
+                      "id" : "pbCheckbox",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "expression",
+                          "value" : "!convention.signatureReferent"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "disabled" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Signature Referent"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "convention.signatureReferent"
+                        }
+                      },
+                      "reference" : "1008c28d-6da0-493f-bdaf-93c25f916bb5",
                       "hasValidationError" : false,
                       "id" : "pbCheckbox",
                       "description" : ""
@@ -390,7 +589,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Valide"
+                          "value" : "Signature Responsable"
                         },
                         "dimension" : {
                           "type" : "constant",
@@ -398,17 +597,61 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "sujet_choix.valide"
+                          "value" : "convention.signatureResponsable"
                         }
                       },
-                      "reference" : "6b6afaf1-2f69-4ce6-ace4-73297c2e826c",
+                      "reference" : "54537c9e-6031-4ba2-b726-749c52dbf1e3",
+                      "hasValidationError" : false,
+                      "id" : "pbCheckbox",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "expression",
+                          "value" : "!convention.signatureDoyen"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "disabled" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Signature Doyen"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "convention.signatureDoyen"
+                        }
+                      },
+                      "reference" : "0a72a3ae-1884-4923-937c-e4971e714711",
                       "hasValidationError" : false,
                       "id" : "pbCheckbox",
                       "description" : ""
                     }
                   ]
                 ]
-
               }
             ],
             [
@@ -486,9 +729,7 @@
                     "value" : 12
                   }
                 },
-
-                "reference" : "2e3734d7-fd40-4963-b8a0-0bb85aaa3b6d",
-
+                "reference" : "3041e7f2-256f-4fed-ab95-d3bde156a092",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -540,9 +781,7 @@
                     "value" : 12
                   }
                 },
-
-                "reference" : "8931e5ae-520d-4dd5-855e-83318bffe777",
-
+                "reference" : "f6b2c05a-77fa-41fe-919b-45cffb20bbf9",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -554,6 +793,13 @@
     ]
   ],
   "variables" : {
+    "convention" : {
+      "type" : "url",
+      "value" : [
+        "../{{context.convention_ref.link}}"
+      ],
+      "exposed" : false
+    },
     "task" : {
       "type" : "url",
       "value" : [
@@ -561,7 +807,6 @@
       ],
       "exposed" : false
     },
-
     "submit_errors_list" : {
       "type" : "expression",
       "value" : [
@@ -580,15 +825,15 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
-
-        "if( $data.sujet_choix ){",
+        "if( $data.convention && $data.convention_stage ){",
+        "\t//attach lazy references variables to parent variables",
+        "\t$data.convention.stage = $data.convention_stage;",
         "\treturn {",
-        "\t\t//map sujet_choix variable to expected task contract input",
-        "\t\tsujet_choixInput: {",
-        "\t\t\tvalide: $data.sujet_choix.valide !== undefined ? $data.sujet_choix.valide : null",
+        "\t\t//map convention variable to expected task contract input",
+        "\t\tconventionInput: {",
+        "\t\t\tsignatureResponsable: $data.convention.signatureResponsable !== undefined ? $data.convention.signatureResponsable : null",
         "\t\t}",
         "\t}",
-
         "}"
       ],
       "exposed" : false
@@ -600,14 +845,13 @@
       ],
       "exposed" : false
     },
-    "sujet_choix" : {
+    "convention_stage" : {
       "type" : "url",
       "value" : [
-        "../{{context.sujet_choix_ref.link}}"
+        "{{convention|lazyRef:'stage'}}"
       ],
       "exposed" : false
     },
-
     "taskId" : {
       "type" : "urlparameter",
       "value" : [
@@ -618,16 +862,14 @@
   },
   "assets" : [
     {
-      "id" : "512325e4-80c9-4848-9221-f5deff3faa56",
-
+      "id" : "3b9d2321-57e8-4bc5-8229-2cb87f240921",
       "name" : "localization.json",
       "type" : "json",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "ad05b250-52b3-4fcb-9f70-b0eef92d6ef5",
-
+      "id" : "24a0f35b-6521-47d1-aa6f-8387da3cd85e",
       "name" : "style.css",
       "type" : "css",
       "order" : 0,

@@ -137,6 +137,14 @@
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
+    <user userName="antomuz">
+      <firstName>antoine</firstName>
+      <lastName>muzelet</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">antomuz</password>
+      <customUserInfoValues/>
+    </user>
   </users>
   <roles>
     <role name="Etudiant">
@@ -181,6 +189,26 @@
     <membership>
       <userName>daniela.angelo</userName>
       <roleName>Enseignant</roleName>
+      <groupName>Universit&#xe9;</groupName>
+    </membership>
+    <membership>
+      <userName>antomuz</userName>
+      <roleName>Etudiant</roleName>
+      <groupName>Universit&#xe9;</groupName>
+    </membership>
+    <membership>
+      <userName>antomuz</userName>
+      <roleName>Enseignant</roleName>
+      <groupName>Universit&#xe9;</groupName>
+    </membership>
+    <membership>
+      <userName>antomuz</userName>
+      <roleName>Doyen</roleName>
+      <groupName>Universit&#xe9;</groupName>
+    </membership>
+    <membership>
+      <userName>antomuz</userName>
+      <roleName>Responsable</roleName>
       <groupName>Universit&#xe9;</groupName>
     </membership>
   </memberships>

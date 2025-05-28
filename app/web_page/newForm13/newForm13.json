@@ -1,12 +1,10 @@
 {
-  "id" : "newForm1",
-  "name" : "newForm1",
+  "id" : "newForm13",
+  "name" : "newForm13",
   "type" : "form",
-
-  "uuid" : "0822a874-f6f7-4629-a081-0423a4bc3ba5",
+  "uuid" : "fd6aa630-ad3d-4605-be15-048e53602e67",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1748371937058,
-
+  "lastUpdate" : 1748374643518,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -16,9 +14,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-
-        "reference" : "093b0fe0-b29c-4cd8-8068-b460637bdabc",
-
+        "reference" : "b3697b6a-f427-4a3b-b91a-e0e1a9030928",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -57,9 +53,7 @@
                   "value" : 12
                 }
               },
-
-              "reference" : "6005164b-8ca9-42ec-a8a5-73d8947be733",
-
+              "reference" : "b0574da1-d27d-4d07-bec2-cb4341055298",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -107,9 +101,7 @@
                   "value" : 12
                 }
               },
-
-              "reference" : "b40834e2-c6c2-474f-8971-25352d3a5162",
-
+              "reference" : "565c9774-ef79-4063-b9d6-a7036df3291b",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -125,9 +117,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-
-        "reference" : "1f71e271-1ca0-4c88-a2db-aaa82bc9c0c3",
-
+        "reference" : "38e6fe22-ba8a-4fcb-816f-ba1bb97cb512",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -136,9 +126,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-
-          "reference" : "2081b9c7-536e-4fb2-8b1d-930c111fb337",
-
+          "reference" : "3f3dd099-092b-401f-aed7-a7b0ec771b1e",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -152,263 +140,47 @@
                   "lg" : 12
                 },
                 "propertyValues" : {
-
-                  "hidden" : {
+                  "labelHidden" : {
                     "type" : "constant",
                     "value" : false
                   },
-
-                  "level" : {
+                  "hidden" : {
                     "type" : "constant",
-                    "value" : "Level 4"
-
+                    "value" : false
                   },
                   "cssClasses" : {
                     "type" : "constant",
                     "value" : ""
                   },
-
-                  "text" : {
+                  "disabled" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "label" : {
                     "type" : "interpolation",
-                    "value" : "Sujet_choix"
-                  },
-                  "alignment" : {
-                    "type" : "constant",
-                    "value" : "left"
+                    "value" : "choix du sujet parmis une liste"
                   },
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
-                  }
-                },
-                "reference" : "bb4266e3-8c92-4833-b38e-cb74aac0af5e",
-                "hasValidationError" : false,
-                "id" : "pbTitle",
-                "description" : ""
-              }
-            ],
-            [
-              {
-                "type" : "container",
-                "dimension" : {
-                  "md" : 12,
-                  "sm" : 12,
-                  "xs" : 12,
-                  "lg" : 12
-                },
-                "propertyValues" : {
-                  "repeatedCollection" : {
-                    "type" : "variable"
                   },
-                  "hidden" : {
+                  "value" : {
+                    "type" : "variable",
+                    "value" : "formInput.choix_proposition_input"
+                  },
+                  "required" : {
                     "type" : "constant",
                     "value" : false
                   },
-                  "cssClasses" : {
+                  "allowHTML" : {
                     "type" : "constant",
-                    "value" : ""
-
-                  },
-                  "dimension" : {
-                    "type" : "constant",
-                    "value" : 12
-
+                    "value" : false
                   }
                 },
-                "reference" : "f18a5f79-6ec7-4c30-bab0-9235a2b30211",
+                "reference" : "f4a7f2ed-d080-4dfc-b219-4e1b38c3822f",
                 "hasValidationError" : false,
-                "id" : "pbContainer",
-                "rows" : [
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "allowHtml" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "expression",
-                          "value" : "!sujet_choix.titre"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Titre"
-                        },
-                        "text" : {
-                          "type" : "interpolation",
-                          "value" : "{{sujet_choix.titre}}"
-                        },
-                        "alignment" : {
-                          "type" : "constant",
-                          "value" : "left"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        }
-                      },
-                      "reference" : "e790363b-33e4-44e3-8fd8-9b4cc2132fcb",
-                      "hasValidationError" : false,
-                      "id" : "pbText",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "allowHtml" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "expression",
-                          "value" : "!sujet_choix.description"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Description"
-                        },
-                        "text" : {
-                          "type" : "interpolation",
-                          "value" : "{{sujet_choix.description}}"
-                        },
-                        "alignment" : {
-                          "type" : "constant",
-                          "value" : "left"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        }
-                      },
-                      "reference" : "e50a3b71-259a-481e-8eea-3680d4472746",
-                      "hasValidationError" : false,
-                      "id" : "pbText",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "expression",
-                          "value" : "!sujet_choix.proposeParEtudiant"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "disabled" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Propose Par Etudiant"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "sujet_choix.proposeParEtudiant"
-                        }
-                      },
-                      "reference" : "297290e0-0348-4fe3-892e-dfd04fc8952d",
-                      "hasValidationError" : false,
-                      "id" : "pbCheckbox",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "disabled" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Valide"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "sujet_choix.valide"
-                        }
-                      },
-                      "reference" : "6b6afaf1-2f69-4ce6-ace4-73297c2e826c",
-                      "hasValidationError" : false,
-                      "id" : "pbCheckbox",
-                      "description" : ""
-                    }
-                  ]
-                ]
-
+                "id" : "pbCheckbox",
+                "description" : ""
               }
             ],
             [
@@ -486,9 +258,7 @@
                     "value" : 12
                   }
                 },
-
-                "reference" : "2e3734d7-fd40-4963-b8a0-0bb85aaa3b6d",
-
+                "reference" : "273294ed-5686-47d1-8507-3f8b654745f6",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -540,9 +310,7 @@
                     "value" : 12
                   }
                 },
-
-                "reference" : "8931e5ae-520d-4dd5-855e-83318bffe777",
-
+                "reference" : "20fd251a-4a81-4b9f-ad14-d5a93728d2b8",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -561,7 +329,15 @@
       ],
       "exposed" : false
     },
-
+    "formInput" : {
+      "type" : "json",
+      "value" : [
+        "{\r",
+        "  \"choix_proposition_input\" : false\r",
+        "}"
+      ],
+      "exposed" : false
+    },
     "submit_errors_list" : {
       "type" : "expression",
       "value" : [
@@ -580,15 +356,8 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
-
-        "if( $data.sujet_choix ){",
-        "\treturn {",
-        "\t\t//map sujet_choix variable to expected task contract input",
-        "\t\tsujet_choixInput: {",
-        "\t\t\tvalide: $data.sujet_choix.valide !== undefined ? $data.sujet_choix.valide : null",
-        "\t\t}",
-        "\t}",
-
+        "return {",
+        "\tchoix_proposition_input: $data.formInput.choix_proposition_input",
         "}"
       ],
       "exposed" : false
@@ -600,14 +369,6 @@
       ],
       "exposed" : false
     },
-    "sujet_choix" : {
-      "type" : "url",
-      "value" : [
-        "../{{context.sujet_choix_ref.link}}"
-      ],
-      "exposed" : false
-    },
-
     "taskId" : {
       "type" : "urlparameter",
       "value" : [
@@ -618,18 +379,16 @@
   },
   "assets" : [
     {
-      "id" : "512325e4-80c9-4848-9221-f5deff3faa56",
-
-      "name" : "localization.json",
-      "type" : "json",
+      "id" : "759c108c-2470-4bc9-815f-11edae2800cb",
+      "name" : "style.css",
+      "type" : "css",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "ad05b250-52b3-4fcb-9f70-b0eef92d6ef5",
-
-      "name" : "style.css",
-      "type" : "css",
+      "id" : "7454665b-d1a0-4d1b-9056-d34e3a703e11",
+      "name" : "localization.json",
+      "type" : "json",
       "order" : 0,
       "external" : false
     }
