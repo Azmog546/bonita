@@ -2,9 +2,11 @@
   "id" : "newForm2",
   "name" : "newForm2",
   "type" : "form",
+
   "uuid" : "c37bac3f-0383-46fa-9333-4b3fd5ac8f00",
   "modelVersion" : "2.6",
   "lastUpdate" : 1748372053038,
+
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -14,7 +16,9 @@
           "xs" : 12
         },
         "propertyValues" : { },
+
         "reference" : "82cd2e8e-ce6d-4d3f-8e84-128e80d9f28d",
+
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -53,7 +57,9 @@
                   "value" : 12
                 }
               },
+
               "reference" : "8cd79f7c-ce7a-4c08-a1b3-e6800cdad1f2",
+
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -101,7 +107,9 @@
                   "value" : 12
                 }
               },
+
               "reference" : "25de63be-9a98-4c2a-a36a-e3038870636a",
+
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -117,7 +125,9 @@
           "xs" : 12
         },
         "propertyValues" : { },
+
         "reference" : "b313bc32-1411-455c-9938-18cc9412ebe0",
+
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -126,7 +136,9 @@
             "xs" : 12
           },
           "propertyValues" : { },
+
           "reference" : "10f8835d-f489-4491-98a8-ee5129f5f592",
+
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -140,18 +152,22 @@
                   "lg" : 12
                 },
                 "propertyValues" : {
+
                   "hidden" : {
                     "type" : "constant",
                     "value" : false
                   },
+
                   "level" : {
                     "type" : "constant",
                     "value" : "Level 4"
+
                   },
                   "cssClasses" : {
                     "type" : "constant",
                     "value" : ""
                   },
+
                   "text" : {
                     "type" : "interpolation",
                     "value" : "Convention"
@@ -191,10 +207,12 @@
                   "cssClasses" : {
                     "type" : "constant",
                     "value" : ""
+
                   },
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+
                   }
                 },
                 "reference" : "2bcc294a-ffab-48af-8637-de3ef568e7b3",
@@ -975,6 +993,7 @@
                     }
                   ]
                 ]
+
               }
             ],
             [
@@ -1052,7 +1071,9 @@
                     "value" : 12
                   }
                 },
+
                 "reference" : "f76319b1-7f12-4bce-9603-b060666ffad9",
+
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -1104,7 +1125,9 @@
                     "value" : 12
                   }
                 },
+
                 "reference" : "bb4d6696-d5d6-4d3c-9918-a6b12a5b17ef",
+
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -1116,6 +1139,7 @@
     ]
   ],
   "variables" : {
+
     "convention" : {
       "type" : "url",
       "value" : [
@@ -1134,6 +1158,7 @@
       "type" : "url",
       "value" : [
         "../API/bpm/userTask/{{taskId}}"
+
       ],
       "exposed" : false
     },
@@ -1155,6 +1180,7 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
+
         "if( $data.convention && $data.convention_stage && $data.convention_stage_sujet ){",
         "\t//attach lazy references variables to parent variables",
         "\t$data.convention.stage = $data.convention_stage;",
@@ -1168,6 +1194,7 @@
         "\t\t\tsignatureReferent: $data.convention.signatureReferent !== undefined ? $data.convention.signatureReferent : null",
         "\t\t}",
         "\t}",
+
         "}"
       ],
       "exposed" : false
@@ -1179,6 +1206,7 @@
       ],
       "exposed" : false
     },
+
     "convention_stage" : {
       "type" : "url",
       "value" : [
@@ -1193,6 +1221,7 @@
       ],
       "exposed" : false
     },
+
     "taskId" : {
       "type" : "urlparameter",
       "value" : [
@@ -1203,14 +1232,18 @@
   },
   "assets" : [
     {
+
       "id" : "fa4333f6-0646-4faa-8305-1d732969b90d",
+
       "name" : "style.css",
       "type" : "css",
       "order" : 0,
       "external" : false
     },
     {
+
       "id" : "b671bda7-66b5-4c3e-a3cd-cdef26af8e2f",
+
       "name" : "localization.json",
       "type" : "json",
       "order" : 0,

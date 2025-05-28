@@ -2,9 +2,11 @@
   "id" : "newForm1",
   "name" : "newForm1",
   "type" : "form",
+
   "uuid" : "0822a874-f6f7-4629-a081-0423a4bc3ba5",
   "modelVersion" : "2.6",
   "lastUpdate" : 1748371937058,
+
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -14,7 +16,9 @@
           "xs" : 12
         },
         "propertyValues" : { },
+
         "reference" : "093b0fe0-b29c-4cd8-8068-b460637bdabc",
+
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -53,7 +57,9 @@
                   "value" : 12
                 }
               },
+
               "reference" : "6005164b-8ca9-42ec-a8a5-73d8947be733",
+
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -101,7 +107,9 @@
                   "value" : 12
                 }
               },
+
               "reference" : "b40834e2-c6c2-474f-8971-25352d3a5162",
+
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -117,7 +125,9 @@
           "xs" : 12
         },
         "propertyValues" : { },
+
         "reference" : "1f71e271-1ca0-4c88-a2db-aaa82bc9c0c3",
+
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -126,7 +136,9 @@
             "xs" : 12
           },
           "propertyValues" : { },
+
           "reference" : "2081b9c7-536e-4fb2-8b1d-930c111fb337",
+
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -140,18 +152,22 @@
                   "lg" : 12
                 },
                 "propertyValues" : {
+
                   "hidden" : {
                     "type" : "constant",
                     "value" : false
                   },
+
                   "level" : {
                     "type" : "constant",
                     "value" : "Level 4"
+
                   },
                   "cssClasses" : {
                     "type" : "constant",
                     "value" : ""
                   },
+
                   "text" : {
                     "type" : "interpolation",
                     "value" : "Sujet_choix"
@@ -191,10 +207,12 @@
                   "cssClasses" : {
                     "type" : "constant",
                     "value" : ""
+
                   },
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+
                   }
                 },
                 "reference" : "f18a5f79-6ec7-4c30-bab0-9235a2b30211",
@@ -390,6 +408,7 @@
                     }
                   ]
                 ]
+
               }
             ],
             [
@@ -467,7 +486,9 @@
                     "value" : 12
                   }
                 },
+
                 "reference" : "2e3734d7-fd40-4963-b8a0-0bb85aaa3b6d",
+
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -519,7 +540,9 @@
                     "value" : 12
                   }
                 },
+
                 "reference" : "8931e5ae-520d-4dd5-855e-83318bffe777",
+
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -538,6 +561,7 @@
       ],
       "exposed" : false
     },
+
     "submit_errors_list" : {
       "type" : "expression",
       "value" : [
@@ -556,6 +580,7 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
+
         "if( $data.sujet_choix ){",
         "\treturn {",
         "\t\t//map sujet_choix variable to expected task contract input",
@@ -563,6 +588,7 @@
         "\t\t\tvalide: $data.sujet_choix.valide !== undefined ? $data.sujet_choix.valide : null",
         "\t\t}",
         "\t}",
+
         "}"
       ],
       "exposed" : false
@@ -581,6 +607,7 @@
       ],
       "exposed" : false
     },
+
     "taskId" : {
       "type" : "urlparameter",
       "value" : [
@@ -592,6 +619,7 @@
   "assets" : [
     {
       "id" : "512325e4-80c9-4848-9221-f5deff3faa56",
+
       "name" : "localization.json",
       "type" : "json",
       "order" : 0,
@@ -599,6 +627,7 @@
     },
     {
       "id" : "ad05b250-52b3-4fcb-9f70-b0eef92d6ef5",
+
       "name" : "style.css",
       "type" : "css",
       "order" : 0,
